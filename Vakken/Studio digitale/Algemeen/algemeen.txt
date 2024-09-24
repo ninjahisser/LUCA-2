@@ -1,0 +1,58 @@
+Notes voor google doc (paste in google doc):
+eerste opdracht motion design
+
+6 abstracte animaties maken die een abstract gevoel/emotie uitbeelden
+
+week 1: 1 animatie
+week 2: 2 animaties
+week 3: 3 animaties
+
+gebruik van principles of animation:
+bv:
+squash & stretch
+anticipation
+secondary motion (bv. haar laten volgen voor meer complexiteit in animatie, antenne die beweegt als een auto stopt met rijden, ...)
+fikkiw trough
+slow in slow out
+
+plugins in animatiesoftware: niet aangeraden, zelfde ritme altijd, je verliest controle over structuur
+
+regels:
+abstract met basic shapes in after effects:
+square, circle, triangle, X
+max 2 keer dezelfde emotie als het een volledig ander idee is
+
+zwart/wit met optioneel één extra kleur per animatie (kleuren mogen tweenen)
+geen plugins, geen post-process effects (vectoriele look, plat, rounded corners mag)
+het "hacken" mag, geen toestemming moet niet gevraagd worden, suprise de leerkracht (bv. vormen samen puzellen mag, andere loopholes ook)
+
+paniek, frustratie, euforie, lethargie, stress, opgewonden, walging, schaamte, enthousiast, verlegen, jaloers, passie, verveling, boos, blij, zen, ...
+
+voor elke animatie creeer je ook zelf de perfect getmiede en satisfying geluidseffecten. op basis van recordings, muziekinstrument, synth, ...
+
+animatie meer belangrijk dan geluid
+
+technisch:
+h.264 mp4 / 30 fps / HD resolution/ formaat vrij (1:1, 16:9, ...)
+ - Zelfde formaat bij elke animatie voor consistency finale resultaat
+iedere animatie tussen 10-30 seconden
+1x alle animaties appart
+1x alle animaties achter elkaar
+= 7 bestanden totaal
+
+planning:
+24/09 start opdracht #X
+27/09 tips & tricks after effects
+01/10 werken in de studio
+4/10 feedback animatie 1
+11/10 feedback animatie 2 en 3
+15/10 feedback animatie 4, 5 en 6
+
+deadline:
+18/10 - deadline
+indienen via jouw map in google drive
+correcte benaming file: 
+2425-SD2-Voornaam Achternaam-OpdrachtX.whatever
+
+Doel van de opdracht:
+zie opdracht DLR's en succescriteria via link google doc
