@@ -12,7 +12,7 @@ bv:
 squash & stretch
 anticipation
 secondary motion (bv. haar laten volgen voor meer complexiteit in animatie, antenne die beweegt als een auto stopt met rijden, ...)
-fikkiw trough
+follow trough
 slow in slow out
 
 plugins in animatiesoftware: niet aangeraden, zelfde ritme altijd, je verliest controle over structuur
@@ -56,3 +56,29 @@ correcte benaming file:
 
 Doel van de opdracht:
 zie opdracht DLR's en succescriteria via link google doc
+
+BRAINSTORMING:
+met vormen een abstract gezicht maken?
+
+principles of animation:
+- squash and stretch: https://i.ytimg.com/vi/haa7n3UGyDc/maxresdefault.jpg, https://delviewmedia.weebly.com/uploads/3/0/9/9/3099487/at-lp2-03.jpg, https://delviewmedia.weebly.com/uploads/3/0/9/9/3099487/sandsball.png
+bv: schrikken, roepen, schreeuwen, rond hupellen/kaatsen
+
+- anticipation: https://static.wixstatic.com/media/437529_986e88a0f5de4592b92a44f395636b50~mv2.jpg/v1/fill/w_740,h_275,al_c,q_80,enc_auto/437529_986e88a0f5de4592b92a44f395636b50~mv2.jpg
+bv: beginnen met wenen (eerst zielig kijken dan uitbarsten, zuchten (eerst inademen dan loslaten))
+
+- secondary motion: 
+bv: haar dat meevliegt bij hoofdbeweging (kunnen lijnen op een driehoek zijn, één haarspriet (lijn) dat wiebelt na bewegingen)
+
+- follow trough: 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg-Rg_iyOaFKmtbCDTJN_D5lfDBxANpvN3LA&s
+bv: als iets begint met bewegen eerst naar achter laten leunen en dan als die beweging stopt eventjes naarvoor laten leunen en dan naar de rustpositie
+
+slow in and slow out: bv een ei dat rondkaatst
+
+BRAINSTORMING:
+ideeen: 
+driehoek dat naar een cirkel rond huppelt, tegen een cirkel botst en de cirkel vliegt weg als een ballon, de driehoek schrikt en valt dramatisch neer
+een kip die een ei uitlaat (mss 2 driehoeken voor de kip en een bol voor het ei), de kip is dan opgelucht + inspanning (2 emoties)
+één bol met 2 ogen die bozer en bozer wilt en trilt en dan wilt roepen maar ontploft in allemaal kleine bolletjes op het hele scherm
+zelfde als hierboven maar alleen de gezichtseigenschappen tonen (bv. ogen), en geen bol lichaam, gelijk een close-up
