@@ -1,0 +1,15 @@
+ei terug laten komen + groter
+animatie in begin groter
+vector ding aanzetten op precomp veer
+frustratie duidelijk maken in begin animatie (groot & rood?)
+shake op hoofd violently
+contrast tussen normaal en frustratie duidelijk maken
+squash n stretch meer implementeren door hoofd los te zien van lichaam
+hoofd laten "achtervolgen" en bounce
+fysieke regels soort van volgen gelijk papier
+south park
+lagere fps proberen (nog altijd 30FPS EXPORTEREN) (30/15)
+transform van shape wiggle bv of andere offset
+stijl kiezen en regels volgen
+creatief in geluid
+grondvlak ofzo toevoegen
