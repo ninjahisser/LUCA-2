@@ -26,6 +26,7 @@ ei breek geluid (0.3s)
 plop geluid (0.3s)
 eggschell (0.2s)
 
+_______________________________________
 
 OPNAME CHRONOLOGIE:
 
@@ -62,3 +63,21 @@ opbouw suspense (3.5s)
 
 ei breek (0.3s)
 ei shell (0.2s)
+
+______________________________________
+
+2 x floep
+1 x plop
+9 x stof geluid
+1 x stof impact
+1 x stof geschud (3.5s)
+
+6 x kip pok
+
+1 x takjes geluid
+1 x stap geluid takjes
+
+3 x opbouw suspense (1s, 4s, 3.5s)
+
+1 x ei breek
+1 x ei shell
