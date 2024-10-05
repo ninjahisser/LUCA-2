@@ -1,0 +1,17 @@
+Adobe After Effects v25.1x27 Windows 64 render log for project “E-motion_GefrustreerdeKip.aep”
+
+Rendering started on 5/10/2024 at 10:07:43
+
+  5/10/2024 10:07:43: Starting composition “Resultaat”.
+
+  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\E-Motion\Projects\Boos (Kat)\Resultaat.mp4    5/10/2024 10:08:02: Finished composition “Resultaat”.
+
+
+  5/10/2024 10:08:02: Starting composition “Resultaat”.
+
+  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\E-Motion\Projects\Gefrustreerd (Kip)\KipV3.mp4    5/10/2024 10:08:21: Finished composition “Resultaat”.
+
+
+  Total Time Elapsed: 38 Seconds
+Log closed on 5/10/2024 at 10:08:21
+
