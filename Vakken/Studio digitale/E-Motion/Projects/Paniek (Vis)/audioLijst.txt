@@ -1,0 +1,13 @@
+water bewegingen (8s)
+bubbels (2s)
+thud
+thud 2
+thud 3
+water bewegingen 2 (plots) (5s)
+
+splash
+splash 2
+soft splash
+"krrr" geluid
+
+rope geluid (1s)
