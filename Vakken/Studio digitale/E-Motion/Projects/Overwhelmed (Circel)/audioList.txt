@@ -1,9 +1,29 @@
 Glas thud 1
 Glad thud 2
+Glad thud 3
+Glad thud 4
+Glad thud 5
+Glad thud 6
 
 Hout hard thud 1
 Hout hard thud 2
+Hout impact hard 3
 
 Hout zachte thud + schuif 1
+Hout zachte thud + schuif 2
+Hout zachte thud + schuif 3
+Hout zachte thud + schuif 4
+Hout zachte thud + schuif 5
 
 Hout thud zacht 1
+Hout thud zacht 2
+Hout thud zacht 3
+Hout thud zacht 4
+Hout thud zacht 5
+Hout thud zacht 6
+
+Rol geluid (4s)
+Vlorp geluid
+
+Boom geluid (5s)
+Wind (11s)
