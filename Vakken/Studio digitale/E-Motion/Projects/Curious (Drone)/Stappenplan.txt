@@ -1,4 +1,6 @@
 1) rough bewegingen drone (zie onderzoek)
 2) curves
 3) extra sway en detail
-4) audio
+4) camera sway enzo bij wind 
+5) audio
+versie met gezicht en zonder exporteren enzo
