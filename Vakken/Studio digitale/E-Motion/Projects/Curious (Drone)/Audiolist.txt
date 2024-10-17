@@ -1,0 +1,30 @@
+boop startup sound
+drone taking flight
+drone crashing and losing balance
+drone hit ground fall
+
+box slide in screen
+box wrap hor
+box wrap vert
+box shake 1
+box shake 2
+box shake 3
+box shake 4
+box explode with wrapping knots popping out
+box wrapping knots explode + hit drone
+drone spinning around losing balance
+
+red light out of box
+red light out of box
+red light aggressive out of box shaking box
+red light aggressive out of box shaking box
+red light aggressive out of box shaking box hard
+
+wind sucking sound hard
+wind sucking stop
+
+stem
+box
+metal/plastic rumbling
+boop (fan?)
+drone hover: stem
