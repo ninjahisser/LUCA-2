@@ -1,0 +1,2434 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.9">
+
+  <session appBuild="24.6.3.2" appVersion="24.6" audioChannelType="stereo" bitDepth="32" duration="12464034" sampleRate="48000">
+    <tracks>
+      <videoTrack id="0" select="false">
+        <trackParameters trackHeight="53" trackHue="-1" trackMinimized="false">
+          <name>Video Reference</name>
+        </trackParameters>
+        <videoClip endPoint="1153920" fileID="0" hue="-1" id="0" lockedInTime="false" name="Coupure Tram" offline="false" select="false" sourceInPoint="0" sourceOutPoint="1153920" startPoint="0" zOrder="0">
+          <videoFormat fieldType="0" height="720" parDenominator="1" parNumerator="1" pixelType="0" sampleSize="1" timeScale="25" width="1280"/>
+        </videoClip>
+      </videoTrack>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="265" trackHue="160" trackMinimized="false">
+          <name>Wind</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="742ac177-d302-4fc7-87ea-95b5d7af128e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.630957305431365966796875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="131a51b1-06d4-42a7-9392-08bdb73c00d3" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b0108e0e-4a40-4784-84fa-e617ffa93022" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="76e9149d-b5fa-4f75-ab86-0d8fd2efd16d" componentID="Audition.EQ" editorHeight="565" editorLeft="563" editorTop="234" editorWidth="794" id="trackEQ" name="EQ" powered="true">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.4678019583225250244140625"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.4128289520740509033203125"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="1"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0.142575442790985107421875"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.20000000298023223876953125"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="872465" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="5 Light Wind 5 Thru Trees Birds 48000 1" offline="false" select="false" sourceInPoint="4581670" sourceOutPoint="5454135" startPoint="0" zOrder="0">
+          <component componentGuid="599848fb-f99c-416a-9a57-8cb3bd16f5d1" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="3ded9322-4f66-4fdd-84d9-e7229aa456d5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7bf9dea6-c940-4d98-a842-cd44727b4138" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="0" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="42747" shape="8" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="872465" shape="19" startPoint="791246" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="1153920" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="5 Light Wind 5 Thru Trees Birds 48000 1" offline="false" select="false" sourceInPoint="5018623" sourceOutPoint="5381297" startPoint="791246" zOrder="1">
+          <component componentGuid="82ec37ca-4330-4dd0-9678-ffb111da6d88" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0de34e72-e468-4f19-a3af-6c56f4c07866" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="56682430-49b4-43d3-af58-884f97b10f78" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="0" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="81219" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="362674" shape="19" startPoint="317790" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="345" trackHue="267" trackMinimized="false">
+          <name>Verkeer</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="10be4288-9d3c-46a7-ba14-7ab03991220f" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.19952626526355743408203125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="3ce1e082-462c-4f14-af0b-9d05c04d27fe" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="48b4fe10-53c5-4c0e-af98-d9c83c5455ae" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="d1bdafd2-c718-41d5-9aaf-b22bc7057893" componentID="Audition.EQ" editorHeight="565" editorLeft="571" editorTop="208" editorWidth="794" id="trackEQ" name="EQ" powered="true">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="1"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.2013440430164337158203125"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.20000000298023223876953125"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="1" endPoint="701661" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="6 High Street IN A Small Town With Traffic And Footsteps 48000 1" offline="false" select="false" sourceInPoint="2783311" sourceOutPoint="3484972" startPoint="0" zOrder="0">
+          <component componentGuid="b73c6c75-8356-4337-b6b7-98098b9e9122" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7ae96edf-0b84-469a-8545-cb9f24366ecf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7b7b55e7-389f-4067-9494-4081b3e807d5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="53973" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="701661" shape="19" startPoint="632266" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="0" crossFadeTailClipID="-1" endPoint="1153920" fileID="2" hue="-1" id="1" lockedInTime="false" looped="false" name="6 High Street IN A Small Town With Traffic And Footsteps 48000 1" offline="false" select="false" sourceInPoint="4013102" sourceOutPoint="4534756" startPoint="632266" zOrder="1">
+          <component componentGuid="3732c3d8-8cea-410b-bfc2-d3dc12e599b3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="de2cf4cf-1d02-4b18-8fd9-7a3bdbc906a6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="23367c3b-5306-4628-b44e-262710fa534a" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="69395" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="521654" shape="19" startPoint="436838" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="409" trackHue="51" trackMinimized="false">
+          <name>Tram</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="95301247-136d-4bea-95a3-836d45b8dd8e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.58489322662353515625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="65c38f95-f9e6-445f-8c8f-d4e12b1e3f44" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4aad61b5-82e6-49c2-a065-abeee9ae1a94" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="07f4cf67-8fb3-4db9-879a-c63991f40f3d" componentID="Audition.EQ" editorHeight="565" editorLeft="563" editorTop="234" editorWidth="794" id="trackEQ" name="EQ" powered="true">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.126111686229705810546875"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.3634868562221527099609375"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.615308582782745361328125"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1200000" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="Tram1 ingekort" offline="false" select="false" sourceInPoint="529853" sourceOutPoint="1683773" startPoint="46080" zOrder="0">
+          <component componentGuid="5c627de2-a73a-4a57-ad62-d0683edd19d3" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="726965" select="false" type="linear" value="0.8764150142669677734375"/>
+                <parameterKeyframe sampleOffset="784939" select="false" type="linear" value="0.64999997615814208984375"/>
+              </parameterKeyframes>
+            </parameter>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="2a1f2264-1f98-4536-a1fc-bfa0e55d4962" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="2704f5e6-1053-4a2a-90a0-57cdc89433af" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="83.396392822265625">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="712471" select="false" type="linear" value="0.5"/>
+                <parameterKeyframe sampleOffset="1506717" select="true" type="linear" value="0.09119112789630889892578125"/>
+                <parameterKeyframe sampleOffset="1683773" select="false" type="linear" value="0.08018867671489715576171875"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="84815" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1153920" shape="-18" startPoint="712510" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="191" trackHue="182" trackMinimized="false">
+          <name>Footsteps</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="8b4948d9-59cf-4726-8087-c04ae01af39d" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7ee8c56e-5f01-42e6-b4e7-4668fa639683" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="ca7795c7-47c1-4b29-b663-0149113f5d22" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="33026c05-2d48-4037-b368-5600afde0e48" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="897328" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="Footsteps Heels Concrete Walk" offline="false" select="false" sourceInPoint="0" sourceOutPoint="588037" startPoint="309291" zOrder="0">
+          <component componentGuid="2b1da938-7b34-4da1-b840-608499ca7b20" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="75ce991c-dbc9-491e-9baa-8ca312af92a0" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="76c2bf45-1bed-46b4-804e-49b51163faf5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="-86.486480712890625">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="140073" select="false" type="linear" value="0.08108107745647430419921875"/>
+                <parameterKeyframe sampleOffset="461677" select="true" type="linear" value="0.9324324131011962890625"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="323022" shape="-60" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="588037" shape="-66" startPoint="323023" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="191" trackHue="294" trackMinimized="false">
+          <name>Stem</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="4f5d228b-3744-41fb-a78f-f30736f6e1bb" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e31c206b-83a0-49b7-94c1-9bd347bfa356" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c087fadc-9c0d-4f06-9aed-8b84db3df7a2" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="40544364-71d6-4c00-8995-f44395220816" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="367447" fileID="5" hue="-1" id="0" lockedInTime="false" looped="false" name="Wim Coupure 48000 1" offline="false" select="false" sourceInPoint="139825" sourceOutPoint="323815" startPoint="183457" zOrder="1">
+          <component componentGuid="0a0e0e15-2afd-48b3-8230-50bd71968089" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c9dbcae5-fec2-471e-8d65-8a5e304b3f15" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="66bba8c7-aa85-4c0d-a5dc-130367ed1d2e" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="183990" shape="19" startPoint="183990" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="514886" fileID="5" hue="-1" id="1" lockedInTime="false" looped="false" name="Wim Coupure 48000 1" offline="false" select="false" sourceInPoint="809462" sourceOutPoint="956901" startPoint="367447" zOrder="0">
+          <component componentGuid="0a2105a9-bba3-4060-a868-870edb397220" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c8929e47-3057-4993-a9e8-caae88e04e03" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f54c5a82-da0a-4b4f-8ef4-afbdfc64d33c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="147439" shape="19" startPoint="147439" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1113445" fileID="5" hue="-1" id="2" lockedInTime="false" looped="false" name="Wim Coupure 48000 1" offline="false" select="false" sourceInPoint="956901" sourceOutPoint="1538049" startPoint="532297" zOrder="2">
+          <component componentGuid="ada465dc-3478-463b-bfd2-358d3563c974" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="703e0537-bc42-4a01-b182-5d2b43546e39" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
+          </component>
+          <component componentGuid="fd737d30-7398-4b92-9adb-9de449631cdb" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="18" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="581148" shape="19" startPoint="581148" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="true" visible="true">
+        <trackParameters trackHeight="191" trackHue="92" trackMinimized="false">
+          <name>Stem vrouw</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="a52f70d2-9bab-4679-9c7e-a66108de7ed5" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="04479e73-3adf-4a0f-93d1-14ea3c262353" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f1faeb5d-c6ea-476a-8803-92080bc051b9" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="cbc8d581-718a-41bd-82d8-58159fb01e53" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="514886" fileID="6" hue="-1" id="0" lockedInTime="false" looped="false" name="Maaike Coupure 48000 1" offline="false" select="false" sourceInPoint="183457" sourceOutPoint="350111" startPoint="348232" zOrder="1">
+          <component componentGuid="f69f7422-e027-44e7-9ccb-c634f6f3a26e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="f94fbc6a-9496-464d-ac86-3a49e7d03bce" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
+          </component>
+          <component componentGuid="610d3503-4b61-4cc5-85e4-4982d1f33302" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="174049" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="166654" shape="19" startPoint="166654" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1113445" fileID="6" hue="-1" id="1" lockedInTime="false" looped="false" name="Maaike Coupure 48000 1" offline="false" select="true" sourceInPoint="973205" sourceOutPoint="1514691" startPoint="571959" zOrder="5">
+          <component componentGuid="f3876ad9-e68b-40f9-b976-6263db9cbb1c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="683d7943-146a-4a21-9e6e-c309787e643b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="6965905f-5334-421a-bbf0-e0c68b8f8412" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="174049" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="541486" shape="19" startPoint="541486" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10007" index="7" select="false" visible="true">
+        <trackParameters trackHeight="191" trackHue="211" trackMinimized="false">
+          <name>Muziek</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="38a8b42a-b312-4731-8d3c-3e495eb5260c" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a496a17f-f430-46c4-af3f-0d00d3e4d3e3" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
+          </component>
+          <component componentGuid="6c7f031a-b466-420c-a411-047afdfb6681" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="83738d07-8799-47a8-89c1-3d76fc6c24ee" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="791246" fileID="7" hue="-1" id="0" lockedInTime="false" looped="false" name="Crater Laker - The Mini Vandals 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="791246" startPoint="0" zOrder="3">
+          <component componentGuid="7e66791f-b8ef-42ba-a379-76ba209c0d8b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="dc8b735b-dc12-485b-9788-d0404040f3db" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="7e6f8659-4776-400e-bbaf-7fd4181816d2" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="791246" shape="19" startPoint="791246" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1303271" fileID="7" hue="-1" id="1" lockedInTime="false" looped="false" name="Crater Laker - The Mini Vandals 48000 1" offline="false" select="false" sourceInPoint="5795815" sourceOutPoint="6307840" startPoint="791246" zOrder="1">
+          <component componentGuid="102dec63-a712-4073-b5d9-4356c8f9a6a2" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7506f5cb-fe34-42f0-a503-8ca6e0fc4b58" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c0dd4370-c0c9-42e9-9942-f0c49a752f3a" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="512025" shape="19" startPoint="512025" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="8" select="false" visible="true">
+        <trackParameters trackHeight="191" trackHue="-1" trackMinimized="false">
+          <name>Mix</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="f9e14933-2e8d-419e-8e61-f5303e79865e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="62a78854-af06-4186-aef8-038b5cb633d5" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f5aa4d63-6271-4533-8f09-09cba6ec1cad" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="9b00bcee-24f8-484c-832f-d1f606e101e2" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="1145700" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="1145700"/>
+      <viewState horizontalViewDuration="3328126" horizontalViewStart="0" trackControlsWidth="178" verticalScrollOffset="-1433"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 152.deb9585, 2024/02/06-08:36:10        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:AEScart="http://ns.adobe.com/aes/cart/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 24.6 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2024-10-15T11:25:07+02:00</xmp:CreateDate>
+         <xmp:MetadataDate>2024-10-22T09:11:47+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2024-10-22T09:11:47+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:c6844c1e-ba0f-f94b-9778-75ea449f85ba</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:c6844c1e-ba0f-f94b-9778-75ea449f85ba</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:fdd6310d-2d7a-db44-8da9-f83c07052b0b</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fdd6310d-2d7a-db44-8da9-f83c07052b0b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:25:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5fb5cfbc-8ce4-4644-96da-95a7492477e8</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:36:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:944b63ba-ddb7-c047-9c64-b79f848124f2</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:36:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:52b8710a-c139-8742-92e5-0e3e48ed3fc3</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:39:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:51c7c9c2-63e4-454a-af16-ef16a9c1f550</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:39:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1f8a5ff6-6c13-6443-b615-2aa4039f58bc</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:54:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5ca9e9a3-e1f3-124d-a738-a96a0b806702</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:54:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:454395cc-85c0-db4a-9db5-6ad0dfb23038</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:54:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:919eedec-467a-3d44-82ac-0405a05a45fa</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:54:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b4be7ef9-2cbf-4749-8d6f-018c4a49f641</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:56:10+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:279e7c81-a329-ad44-b748-cb0ca316d269</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:56:10+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8f1d20f4-c50b-3b4a-b272-2f88f04e2358</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:56:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ca24b1c9-81de-614d-b5e4-1dc8e53f52d9</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:56:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:468a057f-44dc-c341-97b0-3ef34a81ddac</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:58:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cc548140-efa6-d44a-95b2-36b86760fa12</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:58:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:62b62d48-f9d1-5948-a5f6-5ea9e78b4df8</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:59:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:86149521-182f-fd4c-8cf2-c60c6f35ef1f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:59:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9d739d02-d818-504c-ab7f-c417a226e181</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:59:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b6d2041d-f232-5840-a1e4-e5e397eab784</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T11:59:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4bc0a220-fcbb-d748-8b84-476207dfc610</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:02:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7d078ae6-e025-db4b-86a1-4dbdf164b03b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:02:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:83747328-6047-ad4b-b3ad-e340dbfd1b6e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:02:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:65330361-1796-fd4f-be76-79a86d8aade6</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:02:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:01b82c2b-6b62-654d-822d-75b763228ad9</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:07:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cd9d9204-ddd7-b847-931e-093c61d45142</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:07:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:83539b6f-6d28-064a-903f-fdd46432b12f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:07:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0e5ab2d8-04d6-144f-9eda-5cd9b8a6c3a5</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:07:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:999ba65f-5bf3-ce4a-91a4-85814af47d2e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:09:02+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:82121924-3693-fa43-b5db-548ca73b19b6</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:09:02+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:87afa4f7-b729-dc4c-a031-87679ba0cf11</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6b35412b-3e61-9247-9693-31e13e7ad764</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:709b4fef-5bdc-1f4e-919a-8e4a56f0f70c</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:21+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:53e40123-f3d6-5143-b5d7-5c9c0166a2b8</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:21+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f4837970-fafc-0d44-bf4e-17ded2feb66e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3919fa57-4213-c44e-ad4e-69a6ac27289d</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:10:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f32780dd-97cd-4344-96e1-1fabf7bb7f4f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0b6a2898-bcb0-b44a-b78f-b46ff65d76ef</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:352fb62d-e28c-0f4c-a1c6-b9486e46ce5d</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:33a33679-8cc7-d943-8ae3-fdd8d2c899e8</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:980eb905-b57e-8e4c-945e-55a1ad46b7ed</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aa3db413-4a33-6a4f-aa3b-905f16ce77b5</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:11:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:da60843d-20ae-bc47-8341-03126205cdb1</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:16:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fa0125d0-789e-664a-b58e-d5de0fb5362e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:16:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6c2fc74b-e363-4545-8e0e-84a45eb833cf</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:20:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4d4d8e54-5aa0-db4a-8318-54730b444e31</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:20:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:df39a656-8510-6745-89b0-1750d51c7545</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:20:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:57280f1b-7349-f445-ba74-77105aaa9b62</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:20:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:05b3ea70-de06-9340-b91b-917c2b0ec504</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5b45e989-867c-a947-8218-6d16eead85a3</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c7e58217-0afa-a74d-84b5-8db9903bcc4f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:054432cb-595c-5249-a3a3-50af029d0671</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c19b9167-3838-f34f-8c49-21a765a6b5f7</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:52+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ad1b349f-6343-eb47-a1eb-3b60ff41ddb7</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:52+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f84018c7-1e58-2a4f-abaa-cb5fb052ea23</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5045ec36-a1d1-5445-af9f-26b69a38ff25</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:21:55+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9e167814-9412-6341-bedd-ad62d5ebb894</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:23:16+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6470898b-cbf9-ae44-8ed6-fce9fe486636</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:23:16+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:41bbab30-a1f4-9144-aff3-5a88dac24a77</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:07+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:34e081d1-2d81-5c40-ad3a-7e0ce93e11ab</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:07+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d9fca76b-4ff4-154a-abf3-d77e2e7deb2b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5ea7b287-345b-2945-95e6-c6e72de5967a</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ad60a88b-f71c-184b-8137-17638da87c93</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2c92074f-cfa2-5b4d-819f-26d57a59da08</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:24:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7a592711-3abb-ea49-8107-b536f133cbdc</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:27:38+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6b293ab2-5d94-3448-bf15-5e056466de4d</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:27:38+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ab5c8c89-4c2c-094e-9595-774cb99fc10d</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:28:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:43721044-12fb-4440-9937-3ce2ae501fe1</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:28:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b18bd54e-7246-0449-8159-e32487d434a4</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:29:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ebdda8da-e5a5-0740-9376-3fa18cc0c45a</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:29:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1b0f5be5-0d24-bf43-afdf-374e4c983447</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:31:16+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:200e8bfa-ba4b-af43-a36c-5c01d2c1b20b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:31:16+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:feb6a3b3-d644-4e47-8341-5226e7b39808</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:31:18+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:46804fb9-9441-c247-9bb2-80e37acaeb32</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:31:18+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5f804fec-e6b7-ae44-bc71-ce72765a9ce2</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:35:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8e17c8d1-43df-6b4c-8514-c60f337ce258</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:35:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:72173246-491e-c444-8ffa-00a0f6719d99</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:35:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6078c027-9e70-8942-8e4d-4eb636998bcc</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:35:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e26eed9a-beae-b34a-a2cd-b8d2a5c6ed21</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:37:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ba1d1814-2078-d141-a743-7e352737a678</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:37:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ed959a2a-bb11-5445-be75-96074bee8def</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:37:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:02071dcb-d89e-284f-9b58-cc19f174d89e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:37:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5d2b40ba-ed15-034a-b9a2-bf0a6f84c70b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:43:35+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:291b2696-c672-164c-bbab-a1524d722ded</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:43:35+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:570bdbe8-e3a0-1742-8cf9-f9bd78974fca</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:44:54+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:86139433-b2f2-6c43-bc2b-b37223b59de6</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:44:54+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:62efcc44-93a7-5d4d-a775-60409d8ef53b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6d25e099-bc56-084c-b8f3-5733e9736af7</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:290cf2e9-379a-9242-b5a7-192578286836</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:49+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:349c34c7-67b6-6946-b1a5-05483e1c59b3</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:49+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4c863eaf-0f8c-5a44-b88f-47851da98a46</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:50+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6841686b-44a1-9d4d-bdbd-429f22c2c49b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:45:50+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ba988fef-fde0-bb4a-b4d2-bee9153062dd</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:46:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:365d9efb-155f-3b47-8325-80135da70818</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:46:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d62a0f1d-c06b-de43-b97e-b7e758d3b25a</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:47:45+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a9d213e0-8df5-9a47-a612-af1041bb7381</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:47:45+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:42d72b58-be0b-b445-84b7-409af804aeda</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:47:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bdb888cc-d7b4-054f-a339-284538eca5a1</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:47:59+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:89e213a2-e573-a142-9024-92f463b9b5af</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:48:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:82ad9ae9-4f4d-d745-b820-68881c4b54e5</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:48:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2cfba007-64b8-7f4d-8363-e01d1bca3abd</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:48:49+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6f76d3da-6d6c-b640-9723-cc99f354f8de</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:48:49+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:dbdee3ba-0036-bf45-97cd-1d2a5198dcbb</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:50:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f640908e-0e3c-0449-b300-80bdef68bbce</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:50:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2ada33b7-961b-f049-aa93-b8783c12714f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:51:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b467a343-4f7c-ab46-90d6-c76ce37223ac</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:51:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4db265b9-731f-d448-8bc0-4fa0f60bfa1f</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:53:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ca98cac3-47a9-4e4b-be0e-a3a4a510399d</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:53:28+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:73d9f0e9-5f40-514c-b87f-87e9e4ae8c8a</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:55:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5a6a6849-785b-244d-894d-61e37a532af2</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:55:42+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a91127cd-0f79-8b47-92b7-9f2f9d132e98</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:55:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9545fd68-ccb7-d44a-b5f4-011d873fc43c</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:55:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2c958bf5-388e-8d47-be8b-7cf243856ebc</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:56:11+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:29a52d1f-b05c-4f4a-979e-fd8957cedf27</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:56:11+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:71a6e519-2f18-214a-8e64-0c4a230f9d6e</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:56:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:92da4da5-a3b2-884f-b350-fd9f68e51f05</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T12:56:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:19f32377-b189-204f-98f3-002e9b625338</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:00:07+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:26c01af7-4b65-cc4e-b5ae-d688560677f9</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:00:07+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7808343c-9b3d-7c47-a9f4-92115b2bcf1b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:17+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e1ec1189-2923-f548-bb2d-182b95b8e37c</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:17+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:47833a4e-d758-664f-818f-0c04e9c97e02</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:25+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4bd8a8d2-bf50-0545-ad86-8c27105c1618</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:25+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:23b8abe5-eb6e-7842-92fa-6d8c662cb247</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:31+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:00f1d2fd-a2f2-314f-b5da-8da9d727dc86</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:31+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:24546603-0b9e-0940-bc84-a1b1b7151352</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:36+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c698e18d-e7aa-eb4c-8064-c78b8c5c15f0</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:36+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f0ddecce-bd12-3d47-92f2-94d787c75d1a</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:765f8818-34df-9e42-8e25-308936a6b9a7</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:02:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7a892a21-5a6b-0d43-9ce7-54735dcb2a55</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:03:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8724767e-2ac9-5145-a01b-410d733fbb89</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:03:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cff5dcdf-e174-4c40-b599-7f65a3fea98b</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:04:10+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c14a3403-1f2c-064b-808c-40bc2407c9a8</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:04:10+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a86eee93-581d-8644-91cf-287a29e0a9ff</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:05:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d1b9463b-47f3-5a4b-8d18-8231ea735eb0</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:05:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0e45aa1c-5cea-0547-809e-d7f91a525443</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:06:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d6d7e26c-27d2-5d43-ba57-a9749270eb50</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:06:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d29682e7-c7dc-9f46-a565-2e5441b06450</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:08:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:229af8d8-7736-854a-bdf1-3e9a6ca7c799</stEvt:instanceID>
+                  <stEvt:when>2024-10-15T13:08:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:111fc86a-7124-be4f-a7be-492e5f1bf8f7</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:40:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:31f9e8cb-9442-8141-ab9b-00cddb1ad898</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:40:41+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c9758280-3463-1a4c-b97a-4e575e9f3fda</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:44:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e3ee25c1-97e4-f744-9fa8-784041a46197</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:44:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b18c7d81-1f32-cb47-bd95-56fe9c620872</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:44:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aee64f91-f21d-da44-af8c-e22b92896521</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:44:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d6b0c3bd-b9cb-9641-a5f9-7f7558273977</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:47:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:13fe1be8-586e-2344-8f84-a755bcb89cce</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:47:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b53ea3ee-4bb3-c94b-b41a-419771ca0686</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:50:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:98c0adfb-ff7c-4b48-8b4b-db94d928f6b5</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:50:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9dfa3b16-67b0-4344-b399-a888ed0890f5</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:51:37+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e3732298-d77f-5f40-8f34-d5f6ffa825b0</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:51:37+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8aacbf0a-f770-5b47-adda-3fdfc6992d3a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:53:03+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b878f086-0384-b34e-9a46-72b7a029bf55</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:53:03+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7157004f-fe49-3a45-b19e-ee0e7654eaa0</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:54:32+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6915acc7-dd69-ce45-9d32-bedab4dcbad0</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:54:32+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:11d4c070-beb4-ab49-881e-17d3c66b1e7a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:55:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7b1dd3e5-bf16-6242-ad88-27b9882bda7b</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:55:06+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5e57549f-d8c2-0d40-93b7-9ae9150bced0</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:57:18+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:62a69418-b8ce-f147-bc62-86ef4b66323a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:57:18+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:99c41014-3045-8249-b1e3-893e6787c905</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:57:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:005c057c-f7b6-624e-9e78-52c5675b1bb1</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:57:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c1112460-7aa4-5144-8e45-ba4cea889925</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:58:14+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:42f0aadb-3d52-d444-8ebc-248c1d2332fd</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:58:14+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:734cd4d4-da9d-b44b-8b99-23a3114e6f6a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:58:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6574fe83-73d2-544e-8a7c-8cd721f1d3d0</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:58:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:dca634a5-474b-7345-aa6c-f1ca52710753</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:59:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:73e8a181-9d72-6146-8382-172169ce975c</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:59:20+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:27d4a375-4e67-ab40-8410-16ed241cf969</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:59:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4ff0226b-0ca3-2840-a97d-e04ebaab9016</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T08:59:40+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1ae8c150-2714-6341-8389-7833a80f6a77</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8778c9db-3ce8-c240-96fc-48e9f46909ae</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3d6f7e45-da9b-404f-8579-78cbc654013a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:db89f6e9-3d36-9f44-898f-f0cdf2770ff5</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c68779d4-64c9-e74e-8412-a8cb5ae8305f</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:39+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2d364efd-e0b1-b74b-b34b-dbba56a6e967</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:00:39+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bba5c42e-eacf-b445-8fdd-30cc71cadf43</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:02:36+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:179df29b-8cfa-754f-8012-5e3f0fc6b4e6</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:02:36+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7bbf95e1-5b78-e740-b7da-0ba3d5641b9a</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:03:11+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:93e8464f-0931-c54b-a08f-acf278c38cf1</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:03:11+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:29042c7c-8170-0a42-9919-df5048a00174</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:03:39+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bb008eef-74eb-6c4f-a2d5-d70dc905e606</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:03:39+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:54a46026-3e9c-d044-80c0-f9e044519415</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:05:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a941f27c-205e-fe48-ab6f-ca981d546477</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:05:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2fee7b99-0024-6d45-9f9d-5690edb253b6</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:05:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:42ff1ca2-a315-e046-ac4a-528faf3c07d7</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:05:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7f23e650-3f00-3143-8f8d-6bc6bb5cb479</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:08:29+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b78c5bbb-ea05-2746-941c-4e9a665ee055</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:08:29+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:60e3b06d-9e5b-b04e-a786-bd57438e70ba</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:09:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:81ac937d-8164-244a-9e60-501c80243bca</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:09:08+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b7cd7259-800a-7147-ba33-8fe165b75fcb</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:10:53+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6bfca2bb-4b15-6a4d-ac2a-1e75065c11ea</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:10:53+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:38c7f44b-d2e2-244e-845c-c57f6c5bda8c</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:11:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c6844c1e-ba0f-f94b-9778-75ea449f85ba</stEvt:instanceID>
+                  <stEvt:when>2024-10-22T09:11:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 24.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:38c7f44b-d2e2-244e-845c-c57f6c5bda8c</stRef:instanceID>
+            <stRef:documentID>xmp.did:fdd6310d-2d7a-db44-8da9-f83c07052b0b</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:fdd6310d-2d7a-db44-8da9-f83c07052b0b</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <dc:format>application/xml</dc:format>
+         <AEScart:Version>0101</AEScart:Version>
+         <AEScart:PostTimer>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage>EOD </AEScart:Usage>
+                  <AEScart:Value>0</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <AEScart:Usage/>
+                  <AEScart:Value>4294967295</AEScart:Value>
+               </rdf:li>
+            </rdf:Seq>
+         </AEScart:PostTimer>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+                  <xmpDM:markers>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>1027840</xmpDM:startTime>
+                           <xmpDM:name>CD Track 01</xmpDM:name>
+                           <xmpDM:cuePointParams>
+                              <rdf:Seq>
+                                 <rdf:li rdf:parseType="Resource">
+                                    <xmpDM:key>marker_guid</xmpDM:key>
+                                    <xmpDM:value>xmp:id:e0899b4f-cddd-7249-9bfd-2ca273067078</xmpDM:value>
+                                 </rdf:li>
+                              </rdf:Seq>
+                           </xmpDM:cuePointParams>
+                           <xmpDM:guid>xmp:id:e0899b4f-cddd-7249-9bfd-2ca273067078</xmpDM:guid>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpDM:markers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>Metronome</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="d6ffa723-7c2d-4ffe-84e1-71c31daa3746" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ba72f215-1612-4e66-b803-0d16edf75cc3" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c1ad0d6a-027d-4242-aa63-77c6b74bda89" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <component componentGuid="46993187-8eda-4880-b2be-5e93a3572ecc" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.25"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.05150749906897545,0.32432401180267334,0.2929289937019348,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.4000000059604645,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.1959799975156784,0.6896899938583374,0.6969699859619141,0.25,0.5,0.5,0.2346940040588379,0.5199999809265137,0.5,0.75,0.25,0.2512562870979309,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.4577268958091736,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.07149998843669891,0.07149998843669891,0.07149998843669891,0.40238627791404724,0.48571401834487915,0.5,0.5515574812889099,0.5960257649421692,0.22246670722961426,0.07149998843669891,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.2844204008579254,0.48315632343292236,0.364984929561615,0.5285388827323914,0.4351150095462799,0.2715468406677246,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.328642874956131,0.328642874956131,0.328642874956131,0.328642874956131,0.48571401834487915,0.5307139754295349,0.5307139754295349,0.48357096314430237,0.328642874956131,0.328642874956131,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.4253937005996704,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5178940892219543,0.507703423500061,0.5,0.5178940892219543,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostHighTone=Subtle Boost (High Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.519334077835083,0.5464289784431458,0.5270676612854004,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostLowTone=Subtle Boost (Low Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.5464289784431458,0.519334077835083,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.3633434474468231,0.4946831166744232,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.09655340015888214,0.5,0.324894517660141,0,0.3572143018245697,0.3572143018245697,0.4642857015132904,0.47857141494750977,0.4763694703578949,0.4957035481929779,0.5592495799064636,0.5652339458465576,0.5085929036140442,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0,0.004166666883975267,0.00022554649331141263,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.004052083473652601,0.75,0.004262916743755341,0.00022554649331141263,0.006488333456218243,0.00022554649331141263,0.006866666954010725,0.75,0.007170416414737701,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.02874666638672352,0.00022554649331141263,0.04165875166654587,0.00022554649331141263,0.04360000044107437,0.75,0.04563166946172714,0.00022554649331141263,0.06242458149790764,0.00022554649331141263,0.06533333659172058,0.75,0.06837750226259232,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.918749988079071,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0.75,0.004166666883975267,0.75,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.918749988079071,0.6123724579811096,1,0.6123724579811096,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.1998399794101715,0.18367347121238708,0.260869562625885,0.5270270109176636,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.1998399794101715,0.18367347121238708,0.19130434095859528,0.2567567527294159,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.8999999761581421,0,0.5200743675231934,0.41663265228271484,0.46000000834465027,0.5,0.7300000190734863,0.1599999964237213,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.7979797720909119,0.25,0.5,0.5,0.2297959178686142,0.7200000286102295,0.5,0.6299999952316284,0.8799999952316284,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.007444901391863823,0.09898842126131058,0.7989053726196289,0.8999999761581421,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.2752297818660736,0.5,0.7300000190734863,0.3199999928474426,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.05013655871152878,0.6969699859619141,0.25,0.09435578435659409,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.7300000190734863,0.46000000834465027,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.6997500061988831,0.2929289937019348,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.03928571566939354,0.10000000149011612,0.5,1,0.5,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.1959799975156784,0.23931467533111572,0.6969699859619141,0.25,0.5,0.5399999618530273,0.020408162847161293,0.20945435762405396,0.5,1,0.3499999940395355,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.02010050229728222,0.07407407462596893,0.49494948983192444,0.4000000059604645,0.7496030926704407,0.4000000059604645,0.1239795908331871,0.6700000166893005,0.5,0.8500000238418579,0.5600000023841858,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.8998998999595642,0,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.10204081982374191,0.09000000357627869,0.5,1,0.30000001192092896,0.2512562870979309,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.2992990016937256,1,0.9599999785423279,0.8500000238418579,0.5,0.5153059959411621,0.30000001192092896,0.5,0.5,0.5,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.0954774022102356,0.2992990016937256,0.09090910106897354,1,1,0.800000011920929,0.2244900017976761,0.6000000238418579,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Imported Files\Coupure Tram.mov" id="0" mediaHandler="ImporterHost" recoveryID="c9d6e437-1a29-418e-a2dc-13fb46f61cbd" relativePath="../Imported Files/Coupure Tram.mov"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Conformed Files\5 Light Wind 5 Thru Trees Birds 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="4c4f3175-fa3d-4ef0-88bd-fe0a69fb49ab" relativePath="../Conformed Files/5 Light Wind 5 Thru Trees Birds 48000 1.wav"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Conformed Files\6 High Street IN A Small Town With Traffic And Footsteps 48000 1.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="a4da83ac-52bd-41ac-8703-4e21d0607021" relativePath="../Conformed Files/6 High Street IN A Small Town With Traffic And Footsteps 48000 1.wav"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Imported Files\Tram1 ingekort.wav" id="3" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:20;" mediaHandler="AmioWav" recoveryID="87fa14bc-5354-486c-b256-cbcea8a4991c" relativePath="../Imported Files/Tram1 ingekort.wav"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Imported Files\Footsteps Heels Concrete Walk.aiff" id="4" importerPrivateSettings="ByteOrdering:0:1;Compression:0:0;SampleType:0:40;" mediaHandler="AmioAiff" recoveryID="108dab57-403a-4a21-b970-883f2cce7c43" relativePath="../Imported Files/Footsteps Heels Concrete Walk.aiff"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Conformed Files\Wim Coupure 48000 1.wav" id="5" mediaHandler="AmioWav" recoveryID="d1e02cf9-43ee-422b-b00f-76134c5659e6" relativePath="../Conformed Files/Wim Coupure 48000 1.wav"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Conformed Files\Maaike Coupure 48000 1.wav" id="6" mediaHandler="AmioWav" recoveryID="d545901f-f3af-453b-9d08-8f3611a40f99" relativePath="../Conformed Files/Maaike Coupure 48000 1.wav"/>
+    <file absolutePath="C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Crossmedia\Audio\Les 5\Tram Coupure les 1\Conformed Files\Crater Laker - The Mini Vandals 48000 1.wav" id="7" mediaHandler="AmioWav" recoveryID="1e6ec7c9-c925-4388-ad84-94c89a00b7a2" relativePath="../Conformed Files/Crater Laker - The Mini Vandals 48000 1.wav"/>
+  </files>
+
+  <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
+    <inputPort id="1" name="Default Stereo Input"/>
+    <inputPort id="2" name="[01M] System Default - Microfoonmatrix (Intel® Smart Sound Technology for Digital Microphones) 1"/>
+    <inputPort id="3" name="[02M] System Default - Microfoonmatrix (Intel® Smart Sound Technology for Digital Microphones) 2"/>
+    <inputPort id="4" name="[01S] System Default - Microfoonmatrix (Intel® Smart Sound Technology for Digital Microphones) 1"/>
+    <outputPort id="1" name="Default Output"/>
+    <outputPort id="2" name="[01M] System Default - Headphones (2- G9S) 1"/>
+    <outputPort id="3" name="[02M] System Default - Headphones (2- G9S) 2"/>
+    <outputPort id="4" name="Default Stereo Output"/>
+    <outputPort id="5" name="[01S] System Default - Headphones (2- G9S) 1"/>
+    <outputPort id="6" name="Default Surround Output"/>
+  </audioDevice>
+
+</sesx>

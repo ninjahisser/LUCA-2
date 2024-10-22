@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+
+  <importoptions>
+    <au2pr>TRUE</au2pr>
+  </importoptions>
+
+  <project>
+    <name>Versie2 (AU Tracks) Audio</name>
+    <children>
+      <sequence id="sequence-1">
+        <duration>813</duration>
+        <rate>
+          <timebase>254016000000</timebase>
+          <ntsc>FALSE</ntsc>
+        </rate>
+        <name>Versie2 (AU Tracks) Audio</name>
+        <media>
+          <audio>
+            <format>
+              <samplecharacteristics>
+                <depth>32</depth>
+                <samplerate>48000</samplerate>
+              </samplecharacteristics>
+            </format>
+            <outputs>
+              <group>
+                <index>1</index>
+                <numchannels>1</numchannels>
+                <downmix>0</downmix>
+                <channel>
+                  <index>1</index>
+                </channel>
+              </group>
+              <group>
+                <index>2</index>
+                <numchannels>1</numchannels>
+                <downmix>0</downmix>
+                <channel>
+                  <index>2</index>
+                </channel>
+              </group>
+            </outputs>
+            <track>
+              <name>Mix</name>
+              <enabled>TRUE</enabled>
+              <locked>FALSE</locked>
+              <clipitem id="clipitem-0">
+                <name>Versie2_Stereo</name>
+                <enabled>TRUE</enabled>
+                <duration>6896910132000</duration>
+                <start>0</start>
+                <end>6896910132000</end>
+                <in>0</in>
+                <out>6896910132000</out>
+                <file id="0">
+                  <name>Versie2_Stereo.wav</name>
+                  <pathurl>file://localhost/C%3a/Users/sethv/Documents/GitHub/LUCA-2/Vakken/Crossmedia/Audio/Les%205/Sound%20FX%20CM/Versie2%20(AU%20Tracks)%20Audio/Versie2_Stereo.wav</pathurl>
+                  <rate>
+                    <timebase>254016000000</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <duration>6896910132000</duration>
+                  <media>
+                    <audio>
+                      <samplecharacteristics>
+                        <depth>32</depth>
+                        <samplerate>48000</samplerate>
+                      </samplecharacteristics>
+                      <channelcount>2</channelcount>
+                    </audio>
+                  </media>
+                </file>
+                <sourcetrack>
+                  <mediatype>audio</mediatype>
+                  <trackindex>1</trackindex>
+                </sourcetrack>
+                <channelcount>2</channelcount>
+              </clipitem>
+              <channelcount>2</channelcount>
+              <outputchannelindex>25</outputchannelindex>
+            </track>
+          </audio>
+        </media>
+        <timecode>
+          <rate>
+            <timebase>30</timebase>
+            <ntsc>TRUE</ntsc>
+          </rate>
+          <frame>0</frame>
+          <displayformat>NDF</displayformat>
+        </timecode>
+      </sequence>
+    </children>
+  </project>
+
+</xmeml>
