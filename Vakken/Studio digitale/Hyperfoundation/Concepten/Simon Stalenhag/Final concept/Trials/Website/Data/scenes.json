@@ -1,0 +1,21 @@
+{
+    "scenes": [
+        {
+            "id": "svema_37",
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_37/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_37/Middle.png",
+                    "parallaxStrength": 0.2
+                },
+                {
+                    "image": "Res/Parts/svema_37/Foreground.png",
+                    "parallaxStrength": 0.4
+                }
+            ]
+        }
+    ]
+}

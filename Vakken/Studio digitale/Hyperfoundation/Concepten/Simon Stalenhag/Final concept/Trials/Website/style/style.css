@@ -1,0 +1,24 @@
+:root{
+    --cursorX: 0px;
+    --cursorY: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+#sceneImageParent{
+    width: 100%;
+    height: 100%;
+}
+
+#sceneImageParent img {
+    position: absolute; /* Position each image absolutely */
+    top: 0; /* Align all images to the top of the container */
+    left: 0; /* Align all images to the left of the container */
+    width: 100%; /* Make the images take up the full width (optional) */
+    height: 100%; /* Make the images take up the full height (optional) */
+    object-fit:contain; /* Ensures the images cover the container area */
+
+    transform: translateX(calc(1px * var(--cursorX))) translateY(calc(1px * var(--cursorY)));
+}
