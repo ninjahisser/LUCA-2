@@ -7,18 +7,41 @@ body{
     background-color: black;
 }
 
-#sceneImageParent{
-    width: 100%;
-    height: 100%;
+#sceneImageParent {
+    position: absolute;
 }
 
 #sceneImageParent img {
-    position: absolute; /* Position each image absolutely */
-    top: 0; /* Align all images to the top of the container */
-    left: 0; /* Align all images to the left of the container */
-    width: 100%; /* Make the images take up the full width (optional) */
-    height: 100%; /* Make the images take up the full height (optional) */
-    object-fit:contain; /* Ensures the images cover the container area */
+    position: absolute;  /* All images will be stacked */
+    top: 0;
+    left: 0;
+    width: 100%;         /* Ensure they fill the container */
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio */
+}
 
-    transform: translateX(calc(1px * var(--cursorX))) translateY(calc(1px * var(--cursorY)));
+.scene-layer-interaction{
+    position: absolute; 
+
+    width: 20px;
+    height: 20px;
+    
+    z-index: 1;
+    cursor: help;
+}
+
+.scene-text{
+    position: absolute; 
+
+    color: white;
+    font-family: monospace;
+    font-size: 5em;
+    width: 1000px;
+    height: 300px;
+
+    text-align: center;
+    top: calc(50vh - 300px/2);
+    left: calc(50vw - 1000px/2);
+    
+    transform: translateX(calc(50px * var(--cursorX))) translateY(calc(50px * var(--cursorY)));
 }
