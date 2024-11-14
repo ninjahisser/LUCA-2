@@ -26,7 +26,33 @@
                     "interactions": [
                         {
                             "position": [37, 60],
-                            "size": [5, 7]
+                            "size": [5, 7],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Hello there"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Hello there again"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "What should we do?",
+                                    "choices": [
+                                        {
+                                            "text": "Winter",
+                                            "type": "scene_transition",
+                                            "scene": "svema_37_intro_winter"
+                                        },
+                                        {
+                                            "text": "Now",
+                                            "type": "scene_transition",
+                                            "scene": "svema_37_intro_now"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "position": [46.5, 60],
@@ -35,6 +61,18 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "svema_37_intro_winter",
+            "type": "text",
+            "text": "You decide to wait untill summer...",
+            "target_scene": "svema_37"
+        },
+        {
+            "id": "svema_37_intro_now",
+            "type": "text",
+            "text": "You and your friend walk to the car, you head out on the open road...",
+            "target_scene": "svema_37"
         }
     ]
 }

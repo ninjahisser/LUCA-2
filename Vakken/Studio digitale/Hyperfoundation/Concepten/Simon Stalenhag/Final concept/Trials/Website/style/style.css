@@ -3,6 +3,11 @@
     --cursorY: 0px;
 }
 
+@font-face {
+    font-family: BIOS;
+    src: url(../Res/Fonts/BIOS.ttf);
+}
+
 body{
     background-color: black;
 }
@@ -34,14 +39,14 @@ body{
     position: absolute; 
 
     color: white;
-    font-family: monospace;
-    font-size: 5em;
-    width: 1000px;
+    font-family: BIOS;
+    font-size: 2em;
+    width: 500px;
     height: 300px;
 
     text-align: center;
     top: calc(50vh - 300px/2);
-    left: calc(50vw - 1000px/2);
+    left: calc(50vw - 500px/2);
     
     transform: translateX(calc(50px * var(--cursorX))) translateY(calc(50px * var(--cursorY)));
 }

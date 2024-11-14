@@ -3,7 +3,7 @@ initiate("intro");
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
 
-const debug = false;
+const debug = true;
 
 parentElement.innerHTML = '';
 
@@ -58,8 +58,8 @@ async function fetch_scenes() {
                     return this.interactions ? this.interactions : null
                 }
                 
-                const interactions = layer.getInteractions();  // Defined here
-                
+                const interactions = layer.getInteractions();  
+
                 if (interactions) {
                     interactions.forEach(interaction => {
                         interaction.getPosX = function() {
@@ -77,6 +77,50 @@ async function fetch_scenes() {
                         interaction.getHeight = function() {
                             return this.size[1] ? this.size[1] : null  
                         }
+
+                        interaction.getEvents = function(){
+                            return this.events ? this.events : null
+                        }
+
+                        interaction.hasEvents = function(){
+                            return (this.events != null);
+                        }
+
+                        const events = interaction.getEvents(); 
+
+                        if(events){
+                            events.forEach(event => {
+                                event.getType = function(){
+                                    return this.type ? this.type : null
+                                }
+        
+                                event.getContent = function(){
+                                    return this.content ? this.content : null
+                                }
+        
+                                event.getChoices = function(){
+                                    return this.choices ? this.choices : null
+                                }
+
+                                const choices = event.getChoices();
+
+                                if(choices){
+                                    choices.forEach(choice => {
+                                        choice.getType = function(){
+                                            return this.type ? this.type : null
+                                        }
+                
+                                        choice.getText = function(){
+                                            return this.text ? this.text : null
+                                        }
+                
+                                        choice.getTargetScene = function(){
+                                            return this.scene ? this.scene : null
+                                        }
+                                    });
+                                }
+                            });
+                        }
                     });
                 }
             });
@@ -87,8 +131,8 @@ async function fetch_scenes() {
 }
 
 
-function addLayer(layer){
-    imageSrc = layer.getImage();
+function addLayer(layer) {
+    const imageSrc = layer.getImage();
     if (imageSrc) {
         const imgElement = document.createElement("img");
         const parallaxStrength = layer.getParallax();
@@ -100,33 +144,53 @@ function addLayer(layer){
         parentElement.appendChild(imgElement); 
         console.log("Loading layer image: ", imageSrc);
 
-        interactions = layer.getInteractions();
-        for(i in interactions){
-            const interactionElement = document.createElement("a");
-            interactionElement.classList.add("scene-layer-interaction"); 
-            interactionElement.style.transform = `translateX(calc(-${parallaxStrength}px * var(--cursorX))) translateY(calc(-${parallaxStrength}px * var(--cursorY)))`;
-            
-            posX = interactions[i].getPosX();
-            posY = interactions[i].getPosY();
-            width = interactions[i].getWidth();
-            height = interactions[i].getHeight();
+        const interactions = layer.getInteractions();
+        if (interactions) { // Add this check to avoid null reference errors
+            for (let i = 0; i < interactions.length; i++) {
+                (function(index) {
+                    const interaction = interactions[index];
 
-            interactionElement.style.left = `${posX}%`;
-            interactionElement.style.top = `${posY}%`;
-            interactionElement.style.width = `${width}%`;
-            interactionElement.style.height = `${height}%`;
-            
-            if(debug){
-                interactionElement.style.backgroundColor = "rgba(255, 0, 0, .2)"
+                    const posX = interaction.getPosX();
+                    const posY = interaction.getPosY();
+                    const width = interaction.getWidth();
+                    const height = interaction.getHeight();
+
+                    const interactionElement = document.createElement("a");
+                    interactionElement.classList.add("scene-layer-interaction"); 
+                    interactionElement.style.transform = `translateX(calc(-${parallaxStrength}px * var(--cursorX))) translateY(calc(-${parallaxStrength}px * var(--cursorY)))`;
+
+                    interactionElement.style.left = `${posX}%`;
+                    interactionElement.style.top = `${posY}%`;
+                    interactionElement.style.width = `${width}%`;
+                    interactionElement.style.height = `${height}%`;
+
+                    if (debug) {
+                        interactionElement.style.backgroundColor = "rgba(255, 0, 0, .2)";
+                    }
+
+                    // Attach the event listener to print `i`
+                    interactionElement.addEventListener("click", function() {
+                        if(!interaction.hasEvents()){
+                            alert("no events found");
+                        }
+
+                        //DO EVENT RELATED STUFF HERE
+                        //ADD A TEXT THING ABOVE IT AND MAKE IT GO TROUGH ALL THE EVENTS ON CLICK
+                        //PRESENT CHOICES
+                        //MAKE CHOICES OPEN SCENES
+
+                    });
+                    parentElement.appendChild(interactionElement);
+                })(i);
             }
-
-            parentElement.appendChild(interactionElement); 
-            console.log("Adding interaction: ", interactionElement);
+        } else {
+            console.log("No interactions found for this layer.");
         }
     } else {
         console.log("Failed to load image from layer: ", layers[i]);
     }
 }
+
 
 function resizeParent(scene) {
     const ratio = scene.getHeight() / scene.getWidth();
