@@ -86,6 +86,10 @@ async function fetch_scenes() {
                             return (this.events != null);
                         }
 
+                        interaction.getID = function(){
+                            return this.id ? this.id : null
+                        }
+
                         const events = interaction.getEvents(); 
 
                         if(events){
@@ -129,7 +133,15 @@ async function fetch_scenes() {
 
     return json;
 }
+function interactionActive(targetID){
+    activeInteractions.forEach((interaction)=>{
+        if(interaction.getID() == targetID){
+            return true;
+        }
+    });
 
+    return false;
+}
 
 function addLayer(layer) {
     const imageSrc = layer.getImage();
@@ -168,10 +180,19 @@ function addLayer(layer) {
                         interactionElement.style.backgroundColor = "rgba(255, 0, 0, .2)";
                     }
 
-                    // Attach the event listener to print `i`
                     interactionElement.addEventListener("click", function() {
                         if(!interaction.hasEvents()){
                             alert("no events found");
+                        } else {
+                            if(interactionActive(interaction.getID())){
+                                alert("dialogue has already been opened");
+                            } else {
+                                var interaction = {
+                                    id: interaction.getID(),
+                                    index: 0
+                                };
+                                activeInteractions.push(interaction)
+                            }
                         }
 
                         //DO EVENT RELATED STUFF HERE
@@ -228,7 +249,6 @@ function loadTextScene(scene){
     const textContent = scene.getTextContent();
     let index = 0;
 
-    // Function to add one letter at a time
     function typeLetter() {
         if (index < textContent.length) {
             textElement.textContent += textContent.charAt(index);

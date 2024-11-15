@@ -25,6 +25,7 @@
                     "parallaxStrength": 5,
                     "interactions": [
                         {
+                            "id": "svema_37_dialogue_tree_1",
                             "position": [37, 60],
                             "size": [5, 7],
                             "events": [
