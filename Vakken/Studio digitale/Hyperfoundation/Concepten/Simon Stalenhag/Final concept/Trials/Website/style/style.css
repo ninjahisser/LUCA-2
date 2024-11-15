@@ -68,7 +68,7 @@ body{
     top: calc(100% - 80px);
     left: calc(50% - 500px/2);
 
-    transform: translateX(calc(-20px * var(--cursorX))) translateY(calc(-20px * var(--cursorY)));
+    transform: translateX(calc(-10px * var(--cursorX))) translateY(calc(-10px * var(--cursorY)));
 }
 
 #choice-text-parent{
@@ -81,6 +81,8 @@ body{
     transform: translateX(calc(-20px * var(--cursorX))) translateY(calc(-20px * var(--cursorY)));
 
     display: inline-flex;
+
+    transform: translateX(calc(-10px * var(--cursorX))) translateY(calc(-10px * var(--cursorY)));
 }
 
 .choice-text{
