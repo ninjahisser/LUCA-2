@@ -3,7 +3,7 @@
         {
             "id": "intro",
             "type": "text",
-            "text": "You are jumping up, kicking back, whipping around and spinning...",
+            "text": "Your shift is halfway done. You are sitting with your friend Mark just outside the workplace.",
             "target_scene": "svema_37"
         },
         {
@@ -11,18 +11,60 @@
             "type": "image",
             "width": "1024",
             "height": "594",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
             "layers": [
                 {
                     "image": "Res/Parts/svema_37/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 5,
+                    "interactions": [
+                        {
+                            "id": "svema_37_sky",
+                            "position": [0, 0],
+                            "size": [100, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Final days of Fall, It's warm for now..."
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_37/Middle.png",
-                    "parallaxStrength": 2.5
+                    "parallaxStrength": 10,
+                    "interactions": [
+                        {
+                            "id": "svema_37_car",
+                            "position": [76, 52],
+                            "size": [10, 10],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Mark's car, a brand new 1995 model."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "He saved forever for this thing..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "A new 1995 'Taurus'"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_37/Foreground.png",
-                    "parallaxStrength": 5,
+                    "parallaxStrength": 20,
                     "interactions": [
                         {
                             "id": "svema_37_dialogue_tree_1",
@@ -31,48 +73,165 @@
                             "events": [
                                 {
                                     "type": "dialogue",
-                                    "content": "Hello there"
+                                    "content": "I am sitting in the field, it's lunch break... Finally.",
+                                    "talker": 0
                                 },
                                 {
                                     "type": "dialogue",
-                                    "content": "Hello there again"
+                                    "content": "I wish Mark could make some choices without always asking me.",
+                                    "talker": 0
                                 },
                                 {
                                     "type": "dialogue",
-                                    "content": "What should we do?",
-                                    "choices": [
-                                        {
-                                            "text": "Winter",
-                                            "type": "scene_transition",
-                                            "scene": "svema_37_intro_winter"
-                                        },
-                                        {
-                                            "text": "Now",
-                                            "type": "scene_transition",
-                                            "scene": "svema_37_intro_now"
-                                        }
-                                    ]
+                                    "content": "...",
+                                    "talker": 0
                                 }
                             ]
                         },
                         {
+                            "id": "svema_37_dialogue_tree_2",
                             "position": [46.5, 60],
-                            "size": [4, 7]
+                            "size": [4, 7],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "I can't believe we only get 20 minute breaks...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "I wish I could eat my lunch... but I don't have any...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Maybe I should find someone who can cook...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "I don't see myself doing that with this flannel vest on however...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "They propably think I can't afford any groceries with it on.",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "I mean I can't... right now...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Why do you think that is?",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "You just bought a car",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I needed my brand new car...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "How else am I gonna get out of this place?",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "You didn't study",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I did study... just not enough... Jackass",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "There's nothing here anyways, no nice places to work at all...",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Blame the system",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "It's all the fault of the system... I wish I could live off the grid or something",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "Atleast somewhere far away... where things are new and mysterious",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "WE should get out of here!",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We can't just stay here forever...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "See my car in the back? We could it take it right now or wait untill summer",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We could go right now, or we could go next summer when the weather settles...",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Let's go right now!",
+                                            "type": "scene_transition",
+                                            "scene": "svema_37_intro_now"
+                                        },
+                                        {
+                                            "text": "We should wait untill summer...",
+                                            "type": "scene_transition",
+                                            "scene": "svema_37_intro_summer"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "svema_37_intro_winter",
+            "id": "svema_37_intro_summer",
             "type": "text",
-            "text": "You decide to wait untill summer...",
+            "text": "You and Mark decide to wait untill summer...",
             "target_scene": "svema_37"
         },
         {
             "id": "svema_37_intro_now",
             "type": "text",
-            "text": "You and your friend walk to the car, you head out on the open road...",
+            "text": "You and Mark walk to the car, you head out on the open road...",
             "target_scene": "svema_37"
         }
     ]

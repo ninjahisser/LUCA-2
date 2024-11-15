@@ -2,8 +2,11 @@ initiate("intro");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
+let lastInteraction = null;
 
-const debug = true;
+const debug = false;
+
+let talkerColors = [];
 
 parentElement.innerHTML = '';
 
@@ -42,6 +45,18 @@ async function fetch_scenes() {
 
         scene.getTextContent = function() {
             return this.text ? this.text : null;
+        }
+
+        scene.hasTalkers = function(){
+            return (this.talkers != null);
+        }
+
+        scene.getTalkers = function(){
+            return this.talkers ? this.talkers : null;
+        }
+
+        scene.getTalkerColor = function(index){
+            return this.talkers[index] ? this.talkers[index] : null;
         }
 
         if(scene.layers){
@@ -106,6 +121,18 @@ async function fetch_scenes() {
                                     return this.choices ? this.choices : null
                                 }
 
+                                event.hasChoices = function(){
+                                    return (this.choices != null)
+                                }
+
+                                event.hasTalker = function(){
+                                    return (this.talker != null)
+                                }
+
+                                event.getTalkerIndex = function(){
+                                    return this.talker;
+                                }
+
                                 const choices = event.getChoices();
 
                                 if(choices){
@@ -121,6 +148,24 @@ async function fetch_scenes() {
                                         choice.getTargetScene = function(){
                                             return this.scene ? this.scene : null
                                         }
+
+                                        choice.getDialogue = function(){
+                                            return this.dialogue ? this.dialogue : null
+                                        }
+
+                                        const subdialogues = choice.getDialogue();
+
+                                        if(subdialogues){
+                                            subdialogues.forEach(subdialogue => {
+                                                subdialogue.getText = function(){
+                                                    return this.text ? this.text : null
+                                                }
+
+                                                subdialogue.getTalkerIndex = function(){
+                                                    return this.talker;
+                                                }
+                                            });
+                                        }
                                     });
                                 }
                             });
@@ -133,14 +178,217 @@ async function fetch_scenes() {
 
     return json;
 }
+
+let inter = {
+    id: 0,
+    index: 0,
+    limit: 0
+}
+
+var activeInteractions = [];
+
 function interactionActive(targetID){
-    activeInteractions.forEach((interaction)=>{
-        if(interaction.getID() == targetID){
-            return true;
+    found = false;
+
+    activeInteractions.forEach((i)=>{
+        console.log("checking " + i.id + " - " + targetID);
+        if(i.id == targetID){
+            console.log("match");
+            found = true;
+        }
+    });
+        
+    console.log("found:" + found);
+
+    return found;
+}
+
+function progressInteraction(targetID){
+    let resultIndex = 0;
+
+    activeInteractions.forEach((i)=>{
+        console.log("checking " + i.id + " - " + targetID);
+        if(i.id == targetID){
+            if(i.index < i.limit-1){
+                i.index += 1;
+                resultIndex = i.index;
+                console.log("new interaction index:" + i.index);
+            } else {
+                resultIndex = i.index;
+                console.log("limit (" + i.limit + ") reached, index: " + i.index);
+            }
         }
     });
 
-    return false;
+    return resultIndex;
+}
+  
+function addSubtitle(text, talkerIndex){
+    console.log("adding subtitle with talkerIndex: " , talkerIndex);
+    const allSubtitles = document.querySelectorAll(".dialogue-text");
+    allSubtitles.forEach(subtitle => {
+       subtitle.parentNode.removeChild(subtitle);
+    });
+
+    const textElement = document.createElement("p");
+    textElement.classList.add("dialogue-text");
+
+    color = talkerColors[talkerIndex];
+    if(color == null){
+        color = "#bfbfbf";
+    }
+    console.log("Setting color of dialogue to: " + color);
+    textElement.style.color = color;
+
+    parentElement.appendChild(textElement);
+
+    const textContent = text;
+    let index = 0;
+
+    function typeLetter() {
+        if (index < textContent.length) {
+            textElement.textContent += textContent.charAt(index);
+            index++;
+
+            let delay = 50;
+            if(debug){
+                delay = 10;
+            }
+
+            setTimeout(typeLetter, delay);
+        } else {
+
+            delay = 1500;
+            if(debug){
+                delay = 100;
+            }                            
+        }
+    }
+
+    // Start typing the text
+    typeLetter();  
+}
+
+function choicesActive(){
+    return document.getElementById("choice-text-parent");
+}
+
+function clearAllChoices(){
+    const allChoices = document.querySelectorAll(".choice-text");
+    allChoices.forEach(subtitle => {
+       subtitle.parentNode.removeChild(subtitle);
+    });
+
+    choiceParent = document.getElementById("choice-text-parent");
+    if(choiceParent){
+        choiceParent.parentNode.removeChild(choiceParent);
+    }
+}
+
+function interact(interaction, interactionElement){
+    if(!interaction.hasEvents()){
+        alert("no events found");
+    } else {
+        let event;
+
+        if(interactionActive(interaction.getID())){
+            let index = progressInteraction(interaction.getID());
+            let events = interaction.getEvents();
+            event = events[index]
+        } else {
+            var inter = {
+                id: interaction.getID(),
+                index: 0,
+                limit: interaction.getEvents().length
+            }
+            activeInteractions.push(inter);
+            event = interaction.getEvents()[0];
+        }
+        
+        runEvent(event, interactionElement);
+    }
+}
+
+function bindNextSubdialogue(parent, subtitles, index){
+    console.log("Binding next subdialogue: " + index + subtitles);
+    clearAllChoices();
+
+    parent = addNextButton();
+
+    parent.addEventListener("click", function() {
+                    
+        let nextSubtitle = subtitles[index];
+        
+        if (nextSubtitle) {
+            let talkerIndex = subtitles[index].getTalkerIndex();
+            talkerIndex = subtitles[index].getTalkerIndex();
+
+            console.log("Calling add subtitle from bindNextSubdialogue with talkerIndex" + talkerIndex);
+            addSubtitle(subtitles[index].getText(), talkerIndex);
+            bindNextSubdialogue(parent, subtitles, index + 1);
+        } else {
+            // If it's the last subtitle
+            interact(lastInteraction, parent);
+        }
+    });
+}
+
+function addNextButton(){
+    let choiceParent = document.getElementById("choice-text-parent");
+    if (!choiceParent) {
+        choiceParent = document.createElement("div");
+        choiceParent.id = "choice-text-parent";
+        parentElement.appendChild(choiceParent);
+    }
+
+    const textElement = document.createElement("p");
+    textElement.classList.add("choice-text");
+    choiceParent.appendChild(textElement);
+    textElement.textContent = ">>";
+
+    return textElement;
+}
+
+function addChoice(choice, parent) {
+    let choiceParent = document.getElementById("choice-text-parent");
+    if (!choiceParent) {
+        choiceParent = document.createElement("div");
+        choiceParent.id = "choice-text-parent";
+        parentElement.appendChild(choiceParent);
+    }
+
+    const textElement = document.createElement("p");
+    textElement.classList.add("choice-text");
+    choiceParent.appendChild(textElement);
+    textElement.textContent = choice.getText();
+
+    let currentChoice = choice;
+    textElement.addEventListener("click", function() {
+        if (currentChoice.getType() === "dialogue_transition") {
+            let dialogues = currentChoice.getDialogue();
+            let subdialogue = dialogues[0];
+            console.log("Calling add subtitle from addChoice with talkerIndex" + subdialogue.getTalkerIndex());
+            addSubtitle(subdialogue.getText(), subdialogue.getTalkerIndex());
+            bindNextSubdialogue(parent, dialogues, 1);
+        };
+        if(currentChoice.getType() === "scene_transition"){
+            initiate(currentChoice.getTargetScene());
+        }
+    });
+}
+
+function runEvent(event, interactionElement){
+    if(event.getType() == "dialogue"){
+        clearAllChoices();
+        console.log("Calling add subtitle from runEvent with talkerIndex" + event.getTalkerIndex());
+        addSubtitle(event.getContent(), event.getTalkerIndex());                              
+        if(event.hasChoices()){
+            choices = event.getChoices();
+            choices.forEach(choice => {
+                addChoice(choice, interactionElement);
+            });
+        }
+    }
 }
 
 function addLayer(layer) {
@@ -181,24 +429,10 @@ function addLayer(layer) {
                     }
 
                     interactionElement.addEventListener("click", function() {
-                        if(!interaction.hasEvents()){
-                            alert("no events found");
-                        } else {
-                            if(interactionActive(interaction.getID())){
-                                alert("dialogue has already been opened");
-                            } else {
-                                var interaction = {
-                                    id: interaction.getID(),
-                                    index: 0
-                                };
-                                activeInteractions.push(interaction)
-                            }
+                        if(!choicesActive()){
+                            lastInteraction = interaction;
+                            interact(interaction, interactionElement);
                         }
-
-                        //DO EVENT RELATED STUFF HERE
-                        //ADD A TEXT THING ABOVE IT AND MAKE IT GO TROUGH ALL THE EVENTS ON CLICK
-                        //PRESENT CHOICES
-                        //MAKE CHOICES OPEN SCENES
 
                     });
                     parentElement.appendChild(interactionElement);
@@ -277,6 +511,8 @@ function loadTextScene(scene){
 
 
 async function initiate(scenename){
+    activeInteractions = [];
+
     const scenes = await fetch_scenes();
     if(scenes.hasScene(scenename)){
         const scene = scenes.getScene(scenename);
@@ -285,6 +521,16 @@ async function initiate(scenename){
         currentScene = scene;
 
         if(scene.getType() == "image"){
+            if(scene.hasTalkers()){
+                talkerColors = [];
+                scene.getTalkers().forEach((talker, i) => {
+                    let talkerColor = JSON.stringify(scene.getTalkerColor(i).color);
+                    talkerColors.push(talkerColor.replace(/\"/g, ""));
+                    console.log("adding talker color: " + talkerColor)
+                });
+            } else {
+                console.log("scene has no talkers");
+            }
             const layers = scene.getLayers();
             console.log("Layer count: " + layers.length);
             for(i in layers){
