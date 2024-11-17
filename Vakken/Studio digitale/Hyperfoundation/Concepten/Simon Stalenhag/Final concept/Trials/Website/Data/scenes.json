@@ -233,6 +233,228 @@
             "type": "text",
             "text": "You and Mark walk to the car, you head out on the open road...",
             "target_scene": "svema_37"
+        },
+        {
+            "id": "svema_04",
+            "type": "image",
+            "width": "1024",
+            "height": "512",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_04/Background.png",
+                    "parallaxStrength": 0,
+                    "interactions": [
+                        {
+                            "id": "svema_04_winter",
+                            "position": [25, 0],
+                            "size": [50, 50],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "It's freezing... thankfully it's warmer in the car..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It will only get colder..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "Res/Parts/svema_04/Middle.png",
+                    "parallaxStrength": 5,
+                    "interactions": [
+                        {
+                            "id": "svema_04_car",
+                            "position": [62.5, 60],
+                            "size": [15, 20],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "It feels good to be out on the road...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Right?",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Totally!",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Awesome, we can't stop now...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "It's to late now to stop.",
+                                                    "talker": 0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "I have doubts.",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "We are completely free, for the first time...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "What's there to have doubts about?",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Where are we going?",
+                                    "talker": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "Res/Parts/svema_04/Front.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_35",
+            "type": "image",
+            "width": "1024",
+            "height": "1024",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_35/Background.png",
+                    "parallaxStrength": 0,
+                    "interactions": [
+                        {
+                            "id": "svema_04_winter",
+                            "position": [25, 0],
+                            "size": [50, 50],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "It's freezing... thankfully it's warmer in the car..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It will only get colder..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "Res/Parts/svema_35/Middle.png",
+                    "parallaxStrength": 5,
+                    "interactions": [
+                        {
+                            "id": "svema_04_car",
+                            "position": [62.5, 60],
+                            "size": [15, 20],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "It feels good to be out on the road...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Right?",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Totally!",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Awesome, we can't stop now...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "It's to late now to stop.",
+                                                    "talker": 0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "I have doubts.",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "We are completely free, for the first time...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "What's there to have doubts about?",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Where are we going?",
+                                    "talker": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "Res/Parts/svema_35/Front.png",
+                    "parallaxStrength": 10
+                }
+            ]
         }
     ]
 }

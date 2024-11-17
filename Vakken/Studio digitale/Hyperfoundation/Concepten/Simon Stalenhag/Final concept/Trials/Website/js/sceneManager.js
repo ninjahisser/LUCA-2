@@ -1,4 +1,4 @@
-initiate("intro");
+initiate("svema_35");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
