@@ -1,10 +1,10 @@
-initiate("svema_35");
+initiate("svema_40");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
 let lastInteraction = null;
 
-const debug = false;
+const debug = true;
 
 let talkerColors = [];
 
