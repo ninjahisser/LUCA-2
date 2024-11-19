@@ -25,7 +25,8 @@ body{
     object-fit: contain; 
 }
 
-.scene-layer-interaction{
+.scene-layer-interaction, .scene-layer-audio-source{
+    user-select: none;
     position: absolute; 
 
     width: 20px;
@@ -75,7 +76,7 @@ body{
     position: absolute;
     z-index: 2;
 
-    top: calc(100% - 125px);
+    top: calc(100% - 135px);
     left: calc(50% - 500px/2);
 
     transform: translateX(calc(-20px * var(--cursorX))) translateY(calc(-20px * var(--cursorY)));

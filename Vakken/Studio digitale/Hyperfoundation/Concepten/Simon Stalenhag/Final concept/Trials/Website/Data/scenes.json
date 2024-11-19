@@ -35,6 +35,13 @@
                                 }
                             ]
                         }
+                    ],
+                    "audio_sources": [
+                        {
+                            "position": [20, 20],
+                            "radius": 20,
+                            "audio": "leaves" 
+                        }
                     ]
                 },
                 {
@@ -196,7 +203,7 @@
                                 },
                                 {
                                     "type": "dialogue",
-                                    "content": "See my car in the back? We could take it right now or wait untill summer",
+                                    "content": "See my car in the back? We could take it right now or wait until summer",
                                     "talker": 1
                                 },
                                 {
@@ -210,7 +217,7 @@
                                             "scene": "svema_37_intro_now"
                                         },
                                         {
-                                            "text": "We should wait untill summer...",
+                                            "text": "We should wait until summer...",
                                             "type": "scene_transition",
                                             "scene": "svema_37_intro_summer"
                                         }
@@ -225,14 +232,26 @@
         {
             "id": "svema_37_intro_summer",
             "type": "text",
-            "text": "You and Mark decide to wait untill summer...",
-            "target_scene": "svema_37"
+            "text": "You and Mark decide to wait until summer...",
+            "target_scene": "svema_35"
         },
         {
             "id": "svema_37_intro_now",
             "type": "text",
             "text": "You and Mark walk to the car, you head out on the open road...",
-            "target_scene": "svema_37"
+            "target_scene": "svema_28"
+        },
+        {
+            "id": "svema_32_intro",
+            "type": "text",
+            "text": "You refuel the car, you are ready to get back on the road in no-time.",
+            "target_scene": "svema_32"
+        },
+        {
+            "id": "svema_40_intro",
+            "type": "text",
+            "text": "You decide to travel further... until you run out of fuel. Your only option is to scavenge for fuel in the strange machines.",
+            "target_scene": "svema_40"
         },
         {
             "id": "svema_04",
@@ -254,8 +273,8 @@
                     "interactions": [
                         {
                             "id": "svema_04_winter",
-                            "position": [25, 0],
-                            "size": [50, 50],
+                            "position": [15, 0],
+                            "size": [45, 50],
                             "events": [
                                 {
                                     "type": "dialogue",
@@ -264,6 +283,32 @@
                                 {
                                     "type": "dialogue",
                                     "content": "It will only get colder..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_04_monument",
+                            "position": [60, 25],
+                            "size": [30, 40],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "WOW! What a monument...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Maybe that's where we should go!",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "That's what's calling us.",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "scene_27"
                                 }
                             ]
                         }
@@ -369,7 +414,131 @@
                 },
                 {
                     "image": "Res/Parts/svema_35/Front.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "interactions":[
+                        {
+                            "id": "svema_35_machine",
+                            "position": [25, 10],
+                            "size": [50, 40],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Whatever this was... is hasn't been touched for a long time..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "I guess that means we are far from home..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_35_car",
+                            "position": [52, 50],
+                            "size": [25, 17],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Is this what we came for?",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "What a strange machine...",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "It might be dangerous.",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "These machines were used for battle.",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "Maybe it could have been a bomb?",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "Let's keep moving to be safe.",
+                                                    "talker": 0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "What is this thing?",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I don't know what it's function was... but it was used for war.",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "Seems like it's been innactive for a very long time now...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I wonder to who it belonged...",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "I wonder what else is out here.",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I don't want to waste any time not finding out...",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Let's go. We can't spare the fuel anyways.",
+                                    "talker": 0,
+                                    "choices": [
+                                        {
+                                            "text": "Let's go right now!",
+                                            "type": "scene_transition",
+                                            "scene": "svema_40_intro"
+                                        },
+                                        {
+                                            "text": "Let's wait a while",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Fine... I guess it's nice to stare at.",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -393,7 +562,63 @@
                 },
                 {
                     "image": "Res/Parts/svema_28/Middle.png",
-                    "parallaxStrength": 2
+                    "parallaxStrength": 2,
+                    "interactions": [
+                        {
+                            "id": "svema_28_structure",
+                            "position": [5, 30],
+                            "size": [55, 40],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "What a haunting structure..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It looks very industrial, might be to keep machines cool..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Maybe it's a server room or something."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_28_car",
+                            "position": [65, 65],
+                            "size": [10, 20],
+                            "events":[
+                                {
+                                    "type": "dialogue",
+                                    "content": "I can't see a thing trough the snow...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Only makes running away to nowhere better",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "If you can't read where to go, just go",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_30"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_28/Front.png",
@@ -425,7 +650,69 @@
                 },
                 {
                     "image": "Res/Parts/svema_30/Front.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "interactions": [
+                        {
+                            "id": "svema_30_car",
+                            "position": [60, 55],
+                            "size": [15, 20],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Looks like we are going to be in trafic for a while...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We could switch seats... I need some rest.",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Take the driver's wheel",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "You switch seats, you are now at the driver's seat"
+                                                },
+                                                {
+                                                    "text": "You continue to drive and notice that the fuel is running low..."
+                                                },
+                                                {
+                                                    "text": "Better visit a gas station soon..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Keep driving",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Suit yourself...",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "You are on the road for a few more hours..."
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_04"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -449,7 +736,152 @@
                 },
                 {
                     "image": "Res/Parts/svema_40/Middle.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "interactions": [
+                        {
+                            "id": "svema_40_sky",
+                            "position": [0, 0],
+                            "size": [55, 25],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "As the sky turns grey, it starts cooling down..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_40_car",
+                            "position": [20, 25],
+                            "size": [12, 20],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "This won't go anywhere without fuel..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Better try finding some in these machines."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_40_machine",
+                            "position": [55, 10],
+                            "size": [25, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "I hope I don't fall of this thing..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Let's see... where could the fuel storage be...",
+                                    "choices": [
+                                        {
+                                            "text": "Reach between wires",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I can feel something... a handle",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Pull it, it might be a fuel cap.",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "You twist the handle open, you almost lost your stability..."
+                                                },
+                                                {
+                                                    "text": "Your fingers are the first to find out about the fuel inside..."
+                                                },
+                                                {
+                                                    "text": "YES! We got fuel!",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Great, come on down and let's go.",
+                                                    "talker": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Try punching open a damaged lid",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "*METAL CLANG* There's something behind here for sure!",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "*CLANG* Just one more hit!",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "*CLUNK* Got it!",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "You feel a warm sensation on your hand..."
+                                                },
+                                                {
+                                                    "text": "Your balance starts to decrease..."
+                                                },
+                                                {
+                                                    "text": "You cut yourself badly on the rust..."
+                                                },
+                                                {
+                                                    "text": "Game over",
+                                                    "end_game": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Can't believe this still has fuel...",
+                                    "choices": [
+                                        {
+                                            "text": "Let's head out!",
+                                            "type": "scene_transition",
+                                            "scene": "svema_32_intro"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_40_mark",
+                            "position": [47, 27],
+                            "size": [5, 12],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "You must be careful for the rust...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It could lead to some serious infection.",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Don't do anything to risky!",
+                                    "talker": 1
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_40/Front.png",

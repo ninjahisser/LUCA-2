@@ -1,0 +1,38 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion ID="1" Modified="2024-11-19 12:35:32" VersionName="Draft_Les3_Thumbnails">
+ <Element Folder="Draw" ID="1" Name="Draw">
+  <Drawing Key="" Version="1" Name="2"/>
+  <Drawing Key="" Version="1" Name="2_1"/>
+  <Drawing Key="" Version="1" Name="2_2"/>
+  <Drawing Key="" Version="1" Name="2_3"/>
+  <Drawing Key="" Version="1" Name="2_4"/>
+  <Drawing Key="" Version="1" Name="3"/>
+  <Drawing Key="" Version="1" Name="4"/>
+  <Drawing Key="" Version="1" Name="4_1"/>
+  <Drawing Key="" Version="1" Name="4_2"/>
+  <Drawing Key="" Version="1" Name="4_5"/>
+  <Drawing Key="" Version="1" Name="4_6"/>
+  <Drawing Key="" Version="1" Name="5"/>
+  <Drawing Key="" Version="1" Name="7"/>
+  <Drawing Key="" Version="1" Name="7_1"/>
+  <Drawing Key="" Version="1" Name="9"/>
+  <Drawing Key="" Version="1" Name="7_6"/>
+  <Drawing Key="" Version="1" Name="5_1"/>
+  <Drawing Key="" Version="1" Name="5_2"/>
+  <Drawing Key="" Version="1" Name="10"/>
+  <Drawing Key="" Version="1" Name="12"/>
+  <Drawing Key="" Version="1" Name="5_3"/>
+  <Drawing Key="" Version="1" Name="5_4"/>
+  <Drawing Key="" Version="1" Name="5_5"/>
+  <Drawing Key="" Version="1" Name="7_7"/>
+  <Drawing Key="" Version="1" Name="7_8"/>
+  <Drawing Key="" Version="1" Name="7_9"/>
+  <Drawing Key="" Version="1" Name="7_10"/>
+  <Drawing Key="" Version="1" Name="7_11"/>
+  <Drawing Key="" Version="1" Name="7_12"/>
+  <Drawing Key="" Version="1" Name="7_13"/>
+  <Drawing Key="" Version="1" Name="7_14"/>
+  <Drawing Key="" Version="1" Name="7_15"/>
+  <Drawing Key="" Version="1" Name="15"/>
+ </Element>
+</SceneVersion>

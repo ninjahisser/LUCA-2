@@ -1,4 +1,4 @@
-initiate("svema_40");
+initiate("intro");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
@@ -72,7 +72,29 @@ async function fetch_scenes() {
                 layer.getInteractions = function() {
                     return this.interactions ? this.interactions : null
                 }
+
+                layer.getAudioSources = function(){
+                    return this.audio_sources ? this.audio_sources : null
+                }
                 
+                const audioSources = layer.getAudioSources();  
+
+                if (audioSources) {
+                    audioSources.forEach(audioSource => {
+                        audioSource.getPosX = function() {
+                            return this.position[0] ? this.position[0] : null
+                        }
+            
+                        audioSource.getPosY = function() {
+                            return this.position[1] ? this.position[1] : null
+                        }
+    
+                        audioSource.getRadius = function(){
+                            return this.radius ? this.radius : null
+                        }
+                    }
+                )}
+
                 const interactions = layer.getInteractions();  
 
                 if (interactions) {
@@ -131,6 +153,10 @@ async function fetch_scenes() {
 
                                 event.getTalkerIndex = function(){
                                     return this.talker;
+                                }
+
+                                event.getScene = function(){
+                                    return this.scene ? this.scene : null
                                 }
 
                                 const choices = event.getChoices();
@@ -389,6 +415,10 @@ function runEvent(event, interactionElement){
             });
         }
     }
+    else if(event.getType() == "scene_transition"){
+        let scene = event.getScene();
+        initiate(scene);
+    }
 }
 
 function addLayer(layer) {
@@ -441,11 +471,53 @@ function addLayer(layer) {
         } else {
             console.log("No interactions found for this layer.");
         }
-    } else {
+
+        const audioSources = layer.getAudioSources();
+        if(audioSources){
+            for (let i = 0; i < audioSources.length; i++) {
+                (function(index) {
+                    const audioSource = audioSources[index];
+
+                    const posX = audioSource.getPosX();
+                    const posY = audioSource.getPosY();
+                    const width = audioSource.getRadius();
+                    const height = audioSource.getRadius();
+
+                    const interactionElement = document.createElement("a");
+                    interactionElement.classList.add("scene-layer-audio-source"); 
+                    interactionElement.style.transform = `translateX(calc(-${parallaxStrength}px * var(--cursorX))) translateY(calc(-${parallaxStrength}px * var(--cursorY)))`;
+
+                    interactionElement.style.left = `${posX}%`;
+                    interactionElement.style.top = `${posY}%`;
+                    interactionElement.style.width = `${width}%`;
+                    interactionElement.style.height = `${height}%`;
+
+                    if (debug) {
+                        interactionElement.style.backgroundColor = "rgba(0, 255, 0, .2)";
+                    }
+
+                    interactionElement.addEventListener("mousemove", function() {
+
+                        console.log(posX, " - ", posY, " > " , );
+
+                    });
+                    parentElement.appendChild(interactionElement);
+                })(i);
+            }
+        }
+    } 
+    else {
         console.log("Failed to load image from layer: ", layers[i]);
     }
 }
 
+
+function resetSizeParent(){
+    parentElement.style.width = "100vw";
+    parentElement.style.height = "100vh";
+    parentElement.style.left = "0";
+    parentElement.style.right = "0";
+}
 
 function resizeParent(scene) {
     const ratio = scene.getHeight() / scene.getWidth();
@@ -475,6 +547,7 @@ function onWindowResized(){
 window.addEventListener("resize", onWindowResized);
    
 function loadTextScene(scene){
+    resetSizeParent();
     console.log("Loading text scene");
     const textElement = document.createElement("p");
     textElement.classList.add("scene-text");
