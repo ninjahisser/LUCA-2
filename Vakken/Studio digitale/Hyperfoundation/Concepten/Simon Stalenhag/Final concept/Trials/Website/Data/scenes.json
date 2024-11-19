@@ -7,6 +7,11 @@
             "target_scene": "svema_37"
         },
         {
+            "id": "end_game",
+            "type": "game_over",
+            "target_scene": "intro"
+        },
+        {
             "id": "svema_37",
             "type": "image",
             "width": "1024",
@@ -22,7 +27,7 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_37/Background.png",
-                    "parallaxStrength": 5,
+                    "parallaxStrength": 10,
                     "interactions": [
                         {
                             "id": "svema_37_sky",
@@ -40,13 +45,13 @@
                         {
                             "position": [20, 20],
                             "radius": 20,
-                            "audio": "leaves" 
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
                         }
                     ]
                 },
                 {
                     "image": "Res/Parts/svema_37/Middle.png",
-                    "parallaxStrength": 10,
+                    "parallaxStrength": 20,
                     "interactions": [
                         {
                             "id": "svema_37_car",
@@ -71,7 +76,7 @@
                 },
                 {
                     "image": "Res/Parts/svema_37/Foreground.png",
-                    "parallaxStrength": 20,
+                    "parallaxStrength": 30,
                     "interactions": [
                         {
                             "id": "svema_37_dialogue_tree_1",
@@ -316,7 +321,7 @@
                 },
                 {
                     "image": "Res/Parts/svema_04/Middle.png",
-                    "parallaxStrength": 5,
+                    "parallaxStrength": 10,
                     "interactions": [
                         {
                             "id": "svema_04_car",
@@ -386,7 +391,7 @@
                 },
                 {
                     "image": "Res/Parts/svema_04/Front.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 20
                 }
             ]
         },
@@ -406,15 +411,15 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_35/Background.png",
-                    "parallaxStrength": 0
-                },
-                {
-                    "image": "Res/Parts/svema_35/Middle.png",
                     "parallaxStrength": 5
                 },
                 {
+                    "image": "Res/Parts/svema_35/Middle.png",
+                    "parallaxStrength": 10
+                },
+                {
                     "image": "Res/Parts/svema_35/Front.png",
-                    "parallaxStrength": 10,
+                    "parallaxStrength": 15,
                     "interactions":[
                         {
                             "id": "svema_35_machine",
@@ -558,11 +563,11 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_28/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 5
                 },
                 {
                     "image": "Res/Parts/svema_28/Middle.png",
-                    "parallaxStrength": 2,
+                    "parallaxStrength": 10,
                     "interactions": [
                         {
                             "id": "svema_28_structure",
@@ -622,7 +627,7 @@
                 },
                 {
                     "image": "Res/Parts/svema_28/Front.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 15
                 }
             ]
         },
@@ -642,15 +647,15 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_30/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 5
                 },
                 {
                     "image": "Res/Parts/svema_30/Middle.png",
-                    "parallaxStrength": 2
+                    "parallaxStrength": 10
                 },
                 {
                     "image": "Res/Parts/svema_30/Front.png",
-                    "parallaxStrength": 5,
+                    "parallaxStrength": 15,
                     "interactions": [
                         {
                             "id": "svema_30_car",
@@ -732,11 +737,11 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_40/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 5
                 },
                 {
                     "image": "Res/Parts/svema_40/Middle.png",
-                    "parallaxStrength": 5,
+                    "parallaxStrength": 10,
                     "interactions": [
                         {
                             "id": "svema_40_sky",
@@ -839,7 +844,7 @@
                                                     "text": "You cut yourself badly on the rust..."
                                                 },
                                                 {
-                                                    "text": "Game over",
+                                                    "text": "You fainted and never recovered...",
                                                     "end_game": true
                                                 }
                                             ]
@@ -885,7 +890,7 @@
                 },
                 {
                     "image": "Res/Parts/svema_40/Front.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 15
                 }
             ]
         },
@@ -905,19 +910,19 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_32/Background.png",
-                    "parallaxStrength": 0
-                },
-                {
-                    "image": "Res/Parts/svema_32/Ship.png",
                     "parallaxStrength": 5
                 },
                 {
-                    "image": "Res/Parts/svema_32/Middle.png",
+                    "image": "Res/Parts/svema_32/Ship.png",
                     "parallaxStrength": 10
                 },
                 {
-                    "image": "Res/Parts/svema_32/Front.png",
+                    "image": "Res/Parts/svema_32/Middle.png",
                     "parallaxStrength": 15
+                },
+                {
+                    "image": "Res/Parts/svema_32/Front.png",
+                    "parallaxStrength": 20
                 }
             ]
         }

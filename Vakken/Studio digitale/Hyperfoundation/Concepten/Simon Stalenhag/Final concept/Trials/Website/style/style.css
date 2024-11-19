@@ -52,6 +52,10 @@ body{
     transform: translateX(calc(50px * var(--cursorX))) translateY(calc(50px * var(--cursorY)));
 }
 
+.game-over-text{
+    color: red;
+}
+
 .dialogue-text{
     position: absolute;
 

@@ -1,4 +1,4 @@
-initiate("intro");
+initiate("svema_37");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
@@ -25,6 +25,10 @@ async function fetch_scenes() {
     json.scenes.forEach(scene => {
         scene.getType = function() {
             return this.type ? this.type : null;
+        }
+
+        scene.setText = function(text){
+            this.text = text;
         }
 
         scene.getTargetScene = function() {
@@ -91,6 +95,10 @@ async function fetch_scenes() {
     
                         audioSource.getRadius = function(){
                             return this.radius ? this.radius : null
+                        }
+
+                        audioSource.getAudioPath = function(){
+                            return this.audio ? this.audio : null
                         }
                     }
                 )}
@@ -189,6 +197,10 @@ async function fetch_scenes() {
 
                                                 subdialogue.getTalkerIndex = function(){
                                                     return this.talker;
+                                                }
+
+                                                subdialogue.endGame = function(){
+                                                    return this.end_game ? this.end_game : null
                                                 }
                                             });
                                         }
@@ -335,6 +347,13 @@ function interact(interaction, interactionElement){
     }
 }
 
+let game_over_text = "";
+
+function end_game(reason){
+    game_over_text = reason;
+    initiate("end_game");
+}
+
 function bindNextSubdialogue(parent, subtitles, index){
     console.log("Binding next subdialogue: " + index + subtitles);
     clearAllChoices();
@@ -350,6 +369,12 @@ function bindNextSubdialogue(parent, subtitles, index){
             talkerIndex = subtitles[index].getTalkerIndex();
 
             console.log("Calling add subtitle from bindNextSubdialogue with talkerIndex" + talkerIndex);
+            
+
+            if(subtitles[index].endGame()){
+                end_game(subtitles[index].getText());
+            }
+
             addSubtitle(subtitles[index].getText(), talkerIndex);
             bindNextSubdialogue(parent, subtitles, index + 1);
         } else {
@@ -394,6 +419,7 @@ function addChoice(choice, parent) {
             let dialogues = currentChoice.getDialogue();
             let subdialogue = dialogues[0];
             console.log("Calling add subtitle from addChoice with talkerIndex" + subdialogue.getTalkerIndex());
+
             addSubtitle(subdialogue.getText(), subdialogue.getTalkerIndex());
             bindNextSubdialogue(parent, dialogues, 1);
         };
@@ -420,6 +446,38 @@ function runEvent(event, interactionElement){
         initiate(scene);
     }
 }
+
+let audiosPlaying = [];
+
+
+function fadeIn(audio, duration = 1000) {
+    audio.volume = 0; // Start at volume 0
+    audio.currentTime = 0; // Reset the audio
+    audio.play();
+    const step = 0.01; // Volume increment
+    const interval = duration / (1 / step); // Interval time
+    const fade = setInterval(() => {
+        if (audio.volume < 1) {
+            audio.volume = Math.min(audio.volume + step, 1);
+        } else {
+            clearInterval(fade); // Stop fading when volume reaches 1
+        }
+    }, interval);
+}
+
+function fadeOut(audio, duration = 1000) {
+    const step = 0.01; // Volume decrement
+    const interval = duration / (1 / step); // Interval time
+    const fade = setInterval(() => {
+        if (audio.volume > 0) {
+            audio.volume = Math.max(audio.volume - step, 0);
+        } else {
+            clearInterval(fade); // Stop fading when volume reaches 0
+            audio.pause();
+        }
+    }, interval);
+}
+
 
 function addLayer(layer) {
     const imageSrc = layer.getImage();
@@ -496,11 +554,25 @@ function addLayer(layer) {
                         interactionElement.style.backgroundColor = "rgba(0, 255, 0, .2)";
                     }
 
+                    var audio = new Audio(audioSource.getAudioPath());
+
                     interactionElement.addEventListener("mousemove", function() {
-
-                        console.log(posX, " - ", posY, " > " , );
-
+                        if(!audiosPlaying.includes(audioSource.getAudioPath())){
+                            audiosPlaying.push(audioSource.getAudioPath());
+                            fadeIn(audio, 2);
+                            console.log("playing audio: " + audioSource.getAudioPath())
+                        }
                     });
+
+                    interactionElement.addEventListener("mouseout", function() {
+                        if(audiosPlaying.includes(audioSource.getAudioPath())){
+                            fadeOut(audio, 2)
+                            let index = audiosPlaying.indexOf(audioSource.getAudioPath());
+                            audiosPlaying.splice(index, 1);
+                            console.log("stopping audio: " + audioSource.getAudioPath())
+                        }
+                    });
+
                     parentElement.appendChild(interactionElement);
                 })(i);
             }
@@ -546,6 +618,43 @@ function onWindowResized(){
 
 window.addEventListener("resize", onWindowResized);
    
+function loadGameOverScene(scene){
+    resetSizeParent();
+    console.log("Loading game-over scene");
+    const textElement = document.createElement("p");
+    textElement.classList.add("scene-text");
+    textElement.classList.add("game-over-text");
+    parentElement.appendChild(textElement);
+
+    const textContent = "Your journey comes to an end..." + '\n' + game_over_text;
+    let index = 0;
+
+    function typeLetter() {
+        if (index < textContent.length) {
+            textElement.textContent += textContent.charAt(index);
+            index++;
+
+            let delay = 200;
+            if(debug){
+                delay = 40;
+            }
+
+            setTimeout(typeLetter, delay);
+        } else {
+
+            delay = 5000;
+            if(debug){
+                delay = 300;
+            }
+
+            setTimeout(() => initiate(scene.getTargetScene()), delay);
+        }
+    }
+
+    // Start typing the text
+    typeLetter();
+}
+
 function loadTextScene(scene){
     resetSizeParent();
     console.log("Loading text scene");
@@ -611,9 +720,13 @@ async function initiate(scenename){
             }
     
             resizeParent(scene);
+            return scene;
         }
         else if(scene.getType() == "text"){
             loadTextScene(scene);
+        }
+        else if(scene.getType() == "game_over"){
+            loadGameOverScene(scene);
         }
     } else {
         console.log("No scenes found");
