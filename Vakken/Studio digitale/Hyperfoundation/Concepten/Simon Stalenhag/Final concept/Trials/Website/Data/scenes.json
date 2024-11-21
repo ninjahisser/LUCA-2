@@ -2,6 +2,19 @@
     "scenes": [
         {
             "id": "intro",
+            "type": "image",
+            "auto_transition_target": "intro_text",
+            "width": "1920",
+            "height": "1080",
+            "layers": [
+                {
+                    "image": "Res/Intro/intro.png",
+                    "parallaxStrength": 10
+                }
+            ] 
+        },
+        {
+            "id": "intro_text",
             "type": "text",
             "text": "Your shift is halfway done. You are sitting with your friend Mark just outside the workplace.",
             "target_scene": "svema_37"
@@ -263,6 +276,7 @@
             "type": "image",
             "width": "1024",
             "height": "512",
+            "overlay": "snow",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -400,6 +414,7 @@
             "type": "image",
             "width": "1024",
             "height": "1024",
+            "overlay": "sandstorm",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -549,6 +564,7 @@
         },
         {
             "id": "svema_28",
+            "overlay": "snow",
             "type": "image",
             "width": "1024",
             "height": "512",
@@ -636,6 +652,7 @@
             "type": "image",
             "width": "1024",
             "height": "543",
+            "overlay": "snow",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -726,6 +743,7 @@
             "type": "image",
             "width": "1024",
             "height": "567",
+            "overlay": "sandstorm",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -899,6 +917,7 @@
             "type": "image",
             "width": "1024",
             "height": "548",
+            "overlay": "sandstorm",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -923,6 +942,350 @@
                 {
                     "image": "Res/Parts/svema_32/Front.png",
                     "parallaxStrength": 20
+                }
+            ]
+        },
+        {
+            "id": "svema_24",
+            "type": "image",
+            "width": "1024",
+            "height": "512",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_24/Background.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_24/Car.png",
+                    "parallaxStrength": 10
+                },
+                {
+                    "image": "Res/Parts/svema_24/Foreground.png",
+                    "parallaxStrength": 15
+                }
+            ]
+        },
+        {
+            "id": "svema_27",
+            "type": "image",
+            "width": "1024",
+            "height": "1024",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_27/Background.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_27/Middle.png",
+                    "parallaxStrength": 10
+                },
+                {
+                    "image": "Res/Parts/svema_27/Signs.png",
+                    "parallaxStrength": 15
+                }
+            ]
+        },
+        {
+            "id": "svema_26",
+            "type": "image",
+            "width": "1024",
+            "height": "570",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_26/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_26/Ship.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_26/Foreground.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_34",
+            "type": "image",
+            "width": "1024",
+            "height": "570",
+            "overlay": "sandstorm",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_34/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_34/Middle.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_34/Foreground.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_29",
+            "type": "image",
+            "width": "1024",
+            "height": "1024",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_29/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_29/Middle.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_29/Front.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_22",
+            "type": "image",
+            "width": "1024",
+            "height": "671",
+            "overlay": "sandstorm",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_22/Sky.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_22/Focus.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_22/Middle.png",
+                    "parallaxStrength": 10
+                },
+                {
+                    "image": "Res/Parts/svema_22/Foreground.png",
+                    "parallaxStrength": 15
+                }
+            ]
+        },
+        {
+            "id": "svema_33",
+            "type": "image",
+            "width": "1024",
+            "height": "671",
+            "overlay": "sandstorm",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_33/Background.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_33/Middle.png",
+                    "parallaxStrength": 10
+                },
+                {
+                    "image": "Res/Parts/svema_33/Foreground.png",
+                    "parallaxStrength": 15
+                }
+            ]
+        },
+        {
+            "id": "svema_25",
+            "type": "image",
+            "width": "1024",
+            "height": "630",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_25/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_25/Middle.png",
+                    "parallaxStrength": 2.5
+                },
+                {
+                    "image": "Res/Parts/svema_25/Subject.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_25/Foreground.png",
+                    "parallaxStrength": 7.5
+                }
+            ]
+        },
+        {
+            "id": "svema_36",
+            "type": "image",
+            "width": "1024",
+            "height": "1024",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_36/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_36/Middle.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_36/Foreground.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_39",
+            "type": "image",
+            "width": "1024",
+            "height": "558",
+            "overlay": "sandstorm",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_39/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_39/Middle.png",
+                    "parallaxStrength": 5
+                },
+                {
+                    "image": "Res/Parts/svema_39/Foreground.png",
+                    "parallaxStrength": 10
+                }
+            ]
+        },
+        {
+            "id": "svema_10",
+            "type": "image",
+            "width": "1024",
+            "height": "630",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_10/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_10/Foreground.png",
+                    "parallaxStrength": 5
+                }
+            ]
+        },
+        {
+            "id": "svema_31",
+            "type": "image",
+            "width": "1024",
+            "height": "661",
+            "talkers":[
+                {
+                    "color": "#32a87b"
+                },
+                {
+                    "color": "#a89a32"
+                }
+            ],
+            "layers": [
+                {
+                    "image": "Res/Parts/svema_31/Background.png",
+                    "parallaxStrength": 0
+                },
+                {
+                    "image": "Res/Parts/svema_31/Middle.png",
+                    "parallaxStrength": 2.5
+                },
+                {
+                    "image": "Res/Parts/svema_31/Foreground.png",
+                    "parallaxStrength": 5
                 }
             ]
         }

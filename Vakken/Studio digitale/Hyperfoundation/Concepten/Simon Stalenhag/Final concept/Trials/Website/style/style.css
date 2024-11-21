@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: BIOS;
-    src: url(../Res/Fonts/BIOS.ttf);
+    font-family: AldrichRegular;
+    src: url(../Res/Fonts/Aldrich-Regular.ttf);
 }
 
 body{
@@ -14,6 +14,7 @@ body{
 
 #sceneImageParent {
     position: absolute;
+    overflow: hidden;
 }
 
 #sceneImageParent img {
@@ -36,12 +37,34 @@ body{
     cursor: help;
 }
 
+@keyframes slide {
+    0% {
+      transform: translate(0px);
+      opacity: 0%;
+    }
+    50%{
+        opacity: 60%;
+    }
+    100% {
+      transform: translate(calc(-50%));
+      opacity: 0%;
+    }
+}
+
+.scene-overlay{
+    position: absolute;
+    object-fit: cover !important;
+    animation: slide 10s linear infinite;
+    width: 200% !important;
+}
+
 .scene-text{
     position: absolute; 
 
     color: white;
-    font-family: BIOS;
+    font-family: AldrichRegular;
     font-size: 2em;
+    font-weight: 800;
     width: 800px;
     height: 300px;
 
@@ -59,9 +82,11 @@ body{
 .dialogue-text{
     position: absolute;
 
-    background-color: black;
-    font-family: BIOS;
-    font-size: 1em;
+    font-family: AldrichRegular;
+    background-color: rgba(0, 0, 0, .6);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
+    font-weight: 750;
     
     max-width: 500px;
 
@@ -101,8 +126,9 @@ body{
     background-color: white;
     outline: 2px solid black;
 
-    font-family: BIOS;
-    font-size: .7em;
+    font-family: AldrichRegular;
+    font-weight: 800;
+    font-size: .9em;
 }
 
 .choice-text:hover{

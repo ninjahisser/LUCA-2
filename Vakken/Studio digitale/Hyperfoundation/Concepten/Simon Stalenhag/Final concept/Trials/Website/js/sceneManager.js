@@ -1,10 +1,10 @@
-initiate("svema_37");
+initiate("intro");
 
 const parentElement = document.getElementById("sceneImageParent");
 let currentScene = null;
 let lastInteraction = null;
 
-const debug = true;
+const debug = false;
 
 let talkerColors = [];
 
@@ -22,9 +22,25 @@ async function fetch_scenes() {
         return this.scenes.find(scene => scene.id === scenename);    
     }
 
+    json.getScenes = function(){
+        return this.scenes ? this.scenes : null;
+    }
+
     json.scenes.forEach(scene => {
         scene.getType = function() {
             return this.type ? this.type : null;
+        }
+
+        scene.getAutoTransitionTarget = function(){
+            return this.auto_transition_target ? this.auto_transition_target : null;
+        }
+
+        scene.getID = function(){
+            return this.id ? this.id : null;
+        }
+
+        scene.getOverlay = function(){
+            return this.overlay ? this.overlay : null;
         }
 
         scene.setText = function(text){
@@ -217,6 +233,18 @@ async function fetch_scenes() {
     return json;
 }
 
+let fadeDuration = 1000;
+const fadeInScreen = parentElement
+  .animate(
+    [{ opacity: "1" }, { opacity: "0" }, { opacity: "100" }],
+    {
+      fill: "forwards",
+      duration: fadeDuration,
+    },
+  );
+
+fadeInScreen.pause();
+
 let inter = {
     id: 0,
     index: 0,
@@ -288,7 +316,7 @@ function addSubtitle(text, talkerIndex){
             textElement.textContent += textContent.charAt(index);
             index++;
 
-            let delay = 50;
+            let delay = 10;
             if(debug){
                 delay = 10;
             }
@@ -583,6 +611,35 @@ function addLayer(layer) {
     }
 }
 
+async function listScenes(){
+    const scene_data = await fetch_scenes();
+    const scenes = scene_data.getScenes();
+
+    scenes.forEach(scene => {
+        console.log(scene.getID());
+    });
+}
+
+function addOverlay(overlay){
+    if(overlay == "snow"){
+        overlayPath = "Res/Overlay/Snow.png"
+    }
+    if(overlay == "sandstorm"){
+        overlayPath = "Res/Overlay/Sandstorm.png"
+    }
+
+    const imageSrc = overlayPath;
+    if (imageSrc) {
+        const imgElement = document.createElement("img");
+        const parallaxStrength = 10;
+
+        imgElement.src = imageSrc; 
+        imgElement.alt = overlay; 
+        imgElement.classList.add("scene-overlay"); 
+        imgElement.style.transform = `translateX(calc(-${parallaxStrength}px * var(--cursorX))) translateY(calc(-${parallaxStrength}px * var(--cursorY)))`;
+        parentElement.appendChild(imgElement); 
+    }
+}
 
 function resetSizeParent(){
     parentElement.style.width = "100vw";
@@ -634,7 +691,7 @@ function loadGameOverScene(scene){
             textElement.textContent += textContent.charAt(index);
             index++;
 
-            let delay = 200;
+            let delay = 100;
             if(debug){
                 delay = 40;
             }
@@ -670,7 +727,7 @@ function loadTextScene(scene){
             textElement.textContent += textContent.charAt(index);
             index++;
 
-            let delay = 100;
+            let delay = 30;
             if(debug){
                 delay = 20;
             }
@@ -678,7 +735,7 @@ function loadTextScene(scene){
             setTimeout(typeLetter, delay);
         } else {
 
-            delay = 1500;
+            delay = 3000;
             if(debug){
                 delay = 100;
             }
@@ -697,38 +754,54 @@ async function initiate(scenename){
 
     const scenes = await fetch_scenes();
     if(scenes.hasScene(scenename)){
-        const scene = scenes.getScene(scenename);
-        console.log("Loading scene '" + scenename + "' type '" + scene.getType() + "'");
-        parentElement.innerHTML = ""
-        currentScene = scene;
+        fadeInScreen.play();
 
-        if(scene.getType() == "image"){
-            if(scene.hasTalkers()){
-                talkerColors = [];
-                scene.getTalkers().forEach((talker, i) => {
-                    let talkerColor = JSON.stringify(scene.getTalkerColor(i).color);
-                    talkerColors.push(talkerColor.replace(/\"/g, ""));
-                    console.log("adding talker color: " + talkerColor)
-                });
-            } else {
-                console.log("scene has no talkers");
-            }
-            const layers = scene.getLayers();
-            console.log("Layer count: " + layers.length);
-            for(i in layers){
-                addLayer(layers[i]);
-            }
+        action = function(){
+            const scene = scenes.getScene(scenename);
+            console.log("Loading scene '" + scenename + "' type '" + scene.getType() + "'");
+            parentElement.innerHTML = ""
+            currentScene = scene;
     
-            resizeParent(scene);
-            return scene;
+            let autoTransitionTarget = scene.getAutoTransitionTarget();
+            if(autoTransitionTarget){
+                setTimeout(function() {
+                    initiate(autoTransitionTarget);
+                   }, 5000);
+            }
+
+            if(scene.getType() == "image"){
+                if(scene.hasTalkers()){
+                    talkerColors = [];
+                    scene.getTalkers().forEach((talker, i) => {
+                        let talkerColor = JSON.stringify(scene.getTalkerColor(i).color);
+                        talkerColors.push(talkerColor.replace(/\"/g, ""));
+                        console.log("adding talker color: " + talkerColor)
+                    });
+                } else {
+                    console.log("scene has no talkers");
+                }
+                const layers = scene.getLayers();
+                console.log("Layer count: " + layers.length);
+                for(i in layers){
+                    addLayer(layers[i]);
+                }
+    
+                let overlay = scene.getOverlay();
+                if(overlay){
+                    addOverlay(overlay);
+                }
+        
+                resizeParent(scene);
+                return scene;
+            }
+            else if(scene.getType() == "text"){
+                loadTextScene(scene);
+            }
+            else if(scene.getType() == "game_over"){
+                loadGameOverScene(scene);
+            }
         }
-        else if(scene.getType() == "text"){
-            loadTextScene(scene);
-        }
-        else if(scene.getType() == "game_over"){
-            loadGameOverScene(scene);
-        }
-    } else {
-        console.log("No scenes found");
     }
+
+    setTimeout(action, fadeDuration/2);
 }
