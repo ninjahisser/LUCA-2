@@ -109,12 +109,20 @@ async function fetch_scenes() {
                             return this.position[1] ? this.position[1] : null
                         }
     
-                        audioSource.getRadius = function(){
-                            return this.radius ? this.radius : null
+                        audioSource.getWidth = function(){
+                            return this.size[0] ? this.size[0] : null
+                        }
+
+                        audioSource.getHeight = function(){
+                            return this.size[1] ? this.size[1] : null
                         }
 
                         audioSource.getAudioPath = function(){
                             return this.audio ? this.audio : null
+                        }
+
+                        audioSource.doesLoop = function(){
+                            return this.loop ? this.loop : null
                         }
                     }
                 )}
@@ -218,6 +226,14 @@ async function fetch_scenes() {
                                                 subdialogue.endGame = function(){
                                                     return this.end_game ? this.end_game : null
                                                 }
+
+                                                subdialogue.getSound = function(){
+                                                    return this.sound ? this.sound : null
+                                                }
+
+                                                subdialogue.getTargetScene = function(){
+                                                    return this.target_scene ? this.target_scene : null
+                                                }
                                             });
                                         }
                                     });
@@ -288,7 +304,21 @@ function progressInteraction(targetID){
 
     return resultIndex;
 }
+
+let playSoundIndex = 0;
   
+function playTypeSound(){
+    playSoundIndex++;
+    if(playSoundIndex == 8){
+        playSoundIndex = 0;
+    }
+    if(playSoundIndex == 0){
+        var audio = new Audio("../Res/Audio/Dialogue.wav");
+        audio.play();
+    }
+
+}
+
 function addSubtitle(text, talkerIndex){
     console.log("adding subtitle with talkerIndex: " , talkerIndex);
     const allSubtitles = document.querySelectorAll(".dialogue-text");
@@ -300,7 +330,9 @@ function addSubtitle(text, talkerIndex){
     textElement.classList.add("dialogue-text");
 
     color = talkerColors[talkerIndex];
+    let isSilent = false;
     if(color == null){
+        isSilent = true;
         color = "#bfbfbf";
     }
     console.log("Setting color of dialogue to: " + color);
@@ -312,6 +344,10 @@ function addSubtitle(text, talkerIndex){
     let index = 0;
 
     function typeLetter() {
+        if(!isSilent){
+            playTypeSound();
+        }
+
         if (index < textContent.length) {
             textElement.textContent += textContent.charAt(index);
             index++;
@@ -401,6 +437,15 @@ function bindNextSubdialogue(parent, subtitles, index){
 
             if(subtitles[index].endGame()){
                 end_game(subtitles[index].getText());
+            }
+
+            if(subtitles[index].getSound()){
+                var audio = new Audio(subtitles[index].getSound());
+                audio.play();
+            }
+
+            if(subtitles[index].getTargetScene()){
+                initiate(subtitles[index].getTargetScene());
             }
 
             addSubtitle(subtitles[index].getText(), talkerIndex);
@@ -494,7 +539,8 @@ function fadeIn(audio, duration = 1000) {
 }
 
 function fadeOut(audio, duration = 1000) {
-    const step = 0.01; // Volume decrement
+    audio.loop = false;
+    const step = 0.015; // Volume decrement
     const interval = duration / (1 / step); // Interval time
     const fade = setInterval(() => {
         if (audio.volume > 0) {
@@ -566,8 +612,8 @@ function addLayer(layer) {
 
                     const posX = audioSource.getPosX();
                     const posY = audioSource.getPosY();
-                    const width = audioSource.getRadius();
-                    const height = audioSource.getRadius();
+                    const width = audioSource.getWidth();
+                    const height = audioSource.getHeight();
 
                     const interactionElement = document.createElement("a");
                     interactionElement.classList.add("scene-layer-audio-source"); 
@@ -589,15 +635,28 @@ function addLayer(layer) {
                             audiosPlaying.push(audioSource.getAudioPath());
                             fadeIn(audio, 2);
                             console.log("playing audio: " + audioSource.getAudioPath())
+                            audio.loop = audioSource.doesLoop();
                         }
                     });
 
-                    interactionElement.addEventListener("mouseout", function() {
-                        if(audiosPlaying.includes(audioSource.getAudioPath())){
-                            fadeOut(audio, 2)
-                            let index = audiosPlaying.indexOf(audioSource.getAudioPath());
-                            audiosPlaying.splice(index, 1);
-                            console.log("stopping audio: " + audioSource.getAudioPath())
+                    document.addEventListener("mousemove", function(event) {
+                        const rect = interactionElement.getBoundingClientRect();
+                    
+                        // Check if the pointer is outside the element's boundaries
+                        const isOutside = 
+                            event.clientX < rect.left || 
+                            event.clientX > rect.right || 
+                            event.clientY < rect.top || 
+                            event.clientY > rect.bottom;
+                    
+                        if (isOutside) {
+                            if (audiosPlaying.includes(audioSource.getAudioPath())) {
+                                fadeOut(audio, 2);
+                                audio.loop = false;
+                                let index = audiosPlaying.indexOf(audioSource.getAudioPath());
+                                audiosPlaying.splice(index, 1);
+                                console.log("stopping audio: " + audioSource.getAudioPath());
+                            }
                         }
                     });
 
@@ -754,7 +813,9 @@ async function initiate(scenename){
 
     const scenes = await fetch_scenes();
     if(scenes.hasScene(scenename)){
-        fadeInScreen.play();
+        if(!debug){
+            fadeInScreen.play();
+        }
 
         action = function(){
             const scene = scenes.getScene(scenename);
@@ -803,5 +864,9 @@ async function initiate(scenename){
         }
     }
 
-    setTimeout(action, fadeDuration/2);
+    if(debug){
+        action();
+    } else {
+        setTimeout(action, fadeDuration/2);
+    }
 }

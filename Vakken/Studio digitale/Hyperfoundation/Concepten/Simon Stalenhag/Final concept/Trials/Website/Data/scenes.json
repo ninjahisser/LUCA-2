@@ -20,6 +20,72 @@
             "target_scene": "svema_37"
         },
         {
+            "id": "svema_24_intro",
+            "type": "text",
+            "text": "You head to the gas station to refuel.",
+            "target_scene": "svema_24"
+        },
+        {
+            "id": "svema_33_intro",
+            "type": "text",
+            "text": "You travel with a goal in mind. Finally... Your vehicle runs out of fuel... It was inevitable.",
+            "target_scene": "svema_33"
+        },
+        {
+            "id": "svema_36_intro_ship",
+            "type": "text",
+            "text": "You keep walking for what felt like days, You have never been this thirsty before in your life, ",
+            "target_scene": "svema_36"
+        },
+        {
+            "id": "svema_36_intro_fuel",
+            "type": "text",
+            "text": "You ran out of fuel... You keep walking until you find a house. Maybe there is fuel here...",
+            "target_scene": "svema_36"
+        },
+        {
+            "id": "svema_25_intro",
+            "type": "text",
+            "text": "To be continued...",
+            "target_scene": "end_game"
+        },
+        {
+            "id": "svema_39_intro_sleep",
+            "type": "text",
+            "text": "You finally get to rest... you wake up and the storm is gone... just like your car...",
+            "target_scene": "svema_39"
+        },
+        {
+            "id": "svema_36_intro_walking",
+            "type": "text",
+            "text": "You stay on the road for another day... You run out of fuel... and have no money to fuel back up... your only option is walking.",
+            "target_scene": "svema_36"
+        },
+        {
+            "id": "svema_39_intro_run",
+            "type": "text",
+            "text": "You both run as fast as you can, It takes a couple of minutes of running for your to realize you left behind your car...",
+            "target_scene": "svema_39"
+        },
+        {
+            "id": "svema_29_intro_no_pay",
+            "type": "text",
+            "text": "You don't pay. Atleast you save some money...",
+            "target_scene": "svema_29"
+        },
+        {
+            "id": "svema_29_intro_no_pay",
+            "type": "text",
+            "text": "You don't pay. Atleast you save some money...",
+            "target_scene": "svema_29"
+        },
+        {
+            "id": "svema_22_intro",
+            "type": "text",
+            "text": "You sleep just fine... The storm passes. Time to get back on the road!",
+            "target_scene": "svema_22"
+        },
+        {
             "id": "end_game",
             "type": "game_over",
             "target_scene": "intro"
@@ -56,9 +122,34 @@
                     ],
                     "audio_sources": [
                         {
-                            "position": [20, 20],
-                            "radius": 20,
+                            "position": [0, 0],
+                            "size": [15, 50],
                             "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [15, 30],
+                            "size": [80, 30],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [45, 10],
+                            "size": [30, 30],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [5, 3],
+                            "size": [20, 30],
+                            "audio": "Res/Audio/SFX/mechanicalHum.wav" 
+                        },
+                        {
+                            "position": [35, 25],
+                            "size": [10, 15],
+                            "audio": "Res/Audio/SFX/mechanicalHum.wav" 
+                        },
+                        {
+                            "position": [80, 20],
+                            "size": [15, 30],
+                            "audio": "Res/Audio/SFX/mechanicalHum.wav" 
                         }
                     ]
                 },
@@ -260,6 +351,18 @@
             "target_scene": "svema_28"
         },
         {
+            "id": "svema_34_intro",
+            "type": "text",
+            "text": "The sky gets dark, a storm approaches... It's better to get out of the car and stop for a little while.",
+            "target_scene": "svema_34"
+        },
+        {
+            "id": "svema_26_intro",
+            "type": "text",
+            "text": "You are stopped by a large body of water, the sky gets dark, a storm approaches, It's better to spend the night here and wait for the storm to pass...",
+            "target_scene": "svema_26"
+        },
+        {
             "id": "svema_32_intro",
             "type": "text",
             "text": "You refuel the car, you are ready to get back on the road in no-time.",
@@ -327,7 +430,7 @@
                                 },
                                 {
                                     "type": "scene_transition",
-                                    "scene": "scene_27"
+                                    "scene": "svema_27"
                                 }
                             ]
                         }
@@ -405,7 +508,34 @@
                 },
                 {
                     "image": "Res/Parts/svema_04/Front.png",
-                    "parallaxStrength": 20
+                    "parallaxStrength": 20,
+                    "audio_sources": [
+                        {
+                            "position": [20, 40],
+                            "size": [20, 30],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [23, 60],
+                            "size": [10, 10],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [43, 60],
+                            "size": [6, 8],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [50, 66],
+                            "size": [3, 3],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [60, 60],
+                            "size": [20, 15],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        }
+                    ]
                 }
             ]
         },
@@ -426,7 +556,20 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_35/Background.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources": [
+                        {
+                            "position": [20, 15],
+                            "size": [60, 40],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav" ,
+                            "loop": true
+                        },
+                        {
+                            "position": [50, 50],
+                            "size": [30, 20],
+                            "audio": "Res/Audio/SFX/mechanicalHum.wav"
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_35/Middle.png",
@@ -643,7 +786,20 @@
                 },
                 {
                     "image": "Res/Parts/svema_28/Front.png",
-                    "parallaxStrength": 15
+                    "parallaxStrength": 15,
+                    "audio_sources": [
+                        {
+                            "position": [64, 57],
+                            "size": [18, 25],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [4, 28],
+                            "size": [57, 44],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        }
+                    ]
                 }
             ]
         },
@@ -673,6 +829,23 @@
                 {
                     "image": "Res/Parts/svema_30/Front.png",
                     "parallaxStrength": 15,
+                    "audio_sources": [
+                        {
+                            "position": [59, 53],
+                            "size": [17, 23],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [0, 50],
+                            "size": [58, 20],
+                            "audio": "Res/Audio/SFX/traffic.wav" 
+                        },
+                        {
+                            "position": [50, 30],
+                            "size": [40, 20],
+                            "audio": "Res/Audio/SFX/traffic.wav" 
+                        }
+                    ],
                     "interactions": [
                         {
                             "id": "svema_30_car",
@@ -760,6 +933,14 @@
                 {
                     "image": "Res/Parts/svema_40/Middle.png",
                     "parallaxStrength": 10,
+                    "audio_sources":[
+                        {
+                            "position": [48, 9],
+                            "size": [33, 33],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        }
+                    ],
                     "interactions": [
                         {
                             "id": "svema_40_sky",
@@ -929,7 +1110,95 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_32/Background.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources": [
+                        {
+                            "position": [15, 20],
+                            "size": [58, 25],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true 
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_32_sky",
+                            "position": [0, 0],
+                            "size": [100, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Looks like it might be raining very soon..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_32_car_dialogue",
+                            "position": [66, 46],
+                            "size": [8, 13],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We have been driving all day...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It's gonna get dark in a few hours...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We should find some place to go...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We could go for that large structure in the distance...",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Sounds good!",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "We  will probably have to stop somewhere to sleep first, it's very far...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "I could use some rest...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_34_intro"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "It's to far.",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Fine, let's drive away from the storm, it looks like it might get heavy.",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_26_intro"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_32/Ship.png",
@@ -950,6 +1219,7 @@
             "type": "image",
             "width": "1024",
             "height": "512",
+            "overlay": "snow",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -965,7 +1235,75 @@
                 },
                 {
                     "image": "Res/Parts/svema_24/Car.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "audio_sources":[
+                        {
+                            "position": [49, 39],
+                            "size": [37, 32],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav" ,
+                            "loop": true
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_24_car",
+                            "position": [50, 40],
+                            "size": [35, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We were low on fuel...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "If we hadn't refueled we'd be stranded...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We can't pay for this... it's way to expensive!",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Drive away and refuse to pay",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Let's get out of here!",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "target_scene": "svema_29_intro_no_pay"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Pay and be a good citizen",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "We have to do what's right...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "target_scene": "svema_29_intro_pay"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_24/Foreground.png",
@@ -978,6 +1316,7 @@
             "type": "image",
             "width": "1024",
             "height": "1024",
+            "overlay": "snow",
             "talkers":[
                 {
                     "color": "#32a87b"
@@ -997,7 +1336,83 @@
                 },
                 {
                     "image": "Res/Parts/svema_27/Signs.png",
-                    "parallaxStrength": 15
+                    "parallaxStrength": 15,
+                    "interactions":[
+                        {
+                            "id": "svema_27_signs",
+                            "position": [10, 20],
+                            "size": [75, 10],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We are far away from home..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_27_gas",
+                            "position": [80, 60],
+                            "size": [75, 20],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "A gas station...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "There's more gas stations on the road...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We're propably fine...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Let's keep driving okay?",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Demand to refuel",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Fine... but if we're stuck in even more traffic don't blame me...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_24_intro"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Keep driving",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I'm sure we won't run out of fuel...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_36_intro_fuel"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1017,11 +1432,117 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_26/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 0,
+                    "interactions":[
+                        {
+                            "id": "svema_26_sky",
+                            "position": [0, 0],
+                            "size": [100, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "The weather looks horrible..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Better stay somewhere until the storm passes."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_26_car",
+                            "position": [15.5, 35.5],
+                            "size": [9, 9],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We should rest while the storm passes."
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_26/Ship.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources":[
+                        {
+                            "position": [85, 30],
+                            "size": [16, 20],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [0, 30],
+                            "size": [16, 60],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3" 
+                        },
+                        {
+                            "position": [15, 35],
+                            "size": [10, 10],
+                            "audio": "Res/Audio/SFX/car.wav" 
+                        },
+                        {
+                            "position": [40, 22],
+                            "size": [45, 25],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        }
+                    ],
+                    "interactions":[
+                        {
+                            "id": "svema_26_ship",
+                            "position": [41, 23],
+                            "size": [43, 23],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "This might be able to protect the car from the rain...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Or it could break apart and damage the car... or us!.",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "Sleep under the ship",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "I hope nothing bad happens...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_22_intro"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Sleep here",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "This should be the better option...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_22_intro"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_26/Foreground.png",
@@ -1041,6 +1562,9 @@
                 },
                 {
                     "color": "#a89a32"
+                },
+                {
+                    "color": "#e942f5"
                 }
             ],
             "layers": [
@@ -1050,7 +1574,88 @@
                 },
                 {
                     "image": "Res/Parts/svema_34/Middle.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources": [
+                        {
+                            "position": [50, 25],
+                            "size": [20, 30],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true 
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_34_stranger",
+                            "position": [55, 30],
+                            "size": [10, 15],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "HEY! WHAT ARE YOU KIDS DOING DOING HERE?!",
+                                    "talker": 2,
+                                    "choices": [
+                                        {
+                                            "text": "We need some place to sleep",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "WHY AREN'T YOU KIDS SLEEPING AT HOME?",
+                                                    "talker": 2
+                                                },
+                                                {
+                                                    "text": "We ran away...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "YOU ARE LUCKY A BAD STORM IS COMING!",
+                                                    "talker": 2
+                                                },
+                                                {
+                                                    "text": "...",
+                                                    "talker": 2
+                                                },
+                                                {
+                                                    "text": "YOU CAN SLEEP HERE BUT YOU BETTER SCOOT WHEN THE SKY CLEARS!",
+                                                    "talker": 2
+                                                },
+                                                {
+                                                    "text": "Thank you!",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "target_scene": "svema_39_intro_sleep" 
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "We were just about to leave!",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "YOU BETTER RUN!",
+                                                    "talker": 2
+                                                },
+                                                {
+                                                    "text": "The old man appears to reach towards a weapon of some kind.... you both decide to start running!"
+                                                },
+                                                {
+                                                    "target_scene": "svema_39_intro_run" 
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_34/Foreground.png",
@@ -1074,7 +1679,59 @@
             "layers": [
                 {
                     "image": "Res/Parts/svema_29/Background.png",
-                    "parallaxStrength": 0
+                    "parallaxStrength": 0,
+                    "audio_sources": [
+                        {
+                            "position": [20, 20],
+                            "size": [45, 50],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_29_sign",
+                            "position": [85, 60],
+                            "size": [15, 15],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "Skärholmen, near Stockholm, we are getting further away from home by the minute..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_29_structure",
+                            "position": [25, 20.5],
+                            "size": [35, 48.5],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "I'm thankful we are traveling instead of working in a place like that...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Yeah...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We should still figure out where we are going...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We just have to get out of this corporate landscape...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_36_intro_walking"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_29/Middle.png",
@@ -1082,7 +1739,14 @@
                 },
                 {
                     "image": "Res/Parts/svema_29/Front.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "audio_sources": [
+                        {
+                            "position": [5, 65],
+                            "size": [60, 20],
+                            "audio": "Res/Audio/SFX/traffic.wav" 
+                        }
+                    ]
                 }
             ]
         },
@@ -1107,7 +1771,75 @@
                 },
                 {
                     "image": "Res/Parts/svema_22/Focus.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources": [
+                        {
+                            "position": [5, 15],
+                            "size": [40, 40],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        },
+                        {
+                            "position": [60, 45],
+                            "size": [24, 20],
+                            "audio": "Res/Audio/SFX/car.wav"
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_22_monument",
+                            "position": [6, 17],
+                            "size": [38, 35],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "The structure has a giant hole in the center"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "The reason for that is as mysterious as the thing itself..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "It appears to be made out of some kind of rock"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "But how..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_22_car",
+                            "position": [61, 46],
+                            "size": [22, 18],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We are in some weird territory now...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Really makes you think...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "We should look for the origin of this...",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Sounds good. Atleast we have somewhere to go..."
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_33_intro"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_22/Middle.png",
@@ -1123,7 +1855,7 @@
             "id": "svema_33",
             "type": "image",
             "width": "1024",
-            "height": "671",
+            "height": "567",
             "overlay": "sandstorm",
             "talkers":[
                 {
@@ -1140,7 +1872,91 @@
                 },
                 {
                     "image": "Res/Parts/svema_33/Middle.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "audio_sources": [
+                        {
+                            "position": [30, 19],
+                            "size": [55, 17],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true
+                        },
+                        {
+                            "position": [0, 25],
+                            "size": [10, 17],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3"
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_33_ship",
+                            "position": [40, 20],
+                            "size": [20, 15],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "This machine appears to have taken damage..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Seems like something must have caused a direct hit on it..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "But what... and who?"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_33_people",
+                            "position": [72, 35],
+                            "size": [5, 7],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "I cannot believe we ran out of fuel already...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Finding fuel in this thing is our only option...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Look at this thing... We'll never get inside",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Even if we could... It's not worth it...",
+                                    "talker": 1
+                                },
+                                {
+                                     "type": "dialogue",
+                                    "content": "There is no fuel slot anywhere",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "This might not even have been a ship",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Let's just keep moving... We need to find food and water...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_36_intro_ship"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_33/Foreground.png",
@@ -1204,7 +2020,93 @@
                 },
                 {
                     "image": "Res/Parts/svema_36/Foreground.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "audio_sources": [
+                        {
+                            "position": [0, 0],
+                            "size": [10, 50],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3"
+                        },
+                        {
+                            "position": [80, 5],
+                            "size": [20, 50],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3"
+                        },
+                        {
+                            "position": [35, 15],
+                            "size": [30, 30],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3"
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_36_dialog",
+                            "position": [20, 45],
+                            "size": [30, 30],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "We need the water...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "And the food...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "You know it just as well as I do...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Nobody has to get hurt, It's just for show...",
+                                    "talker": 1,
+                                    "choices": [
+                                        {
+                                            "text": "I can't do this...",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Fine then I'll do it...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "To be continued",
+                                                    "end_game": true,
+                                                    "sound": "Res/Audio/Shotgun.wav"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "I'll do it...",
+                                            "type": "dialogue_transition",
+                                            "dialogue": [
+                                                {
+                                                    "text": "...",
+                                                    "talker": 0
+                                                },
+                                                {
+                                                    "text": "Just in and out, that's all it has to be...",
+                                                    "talker": 1
+                                                },
+                                                {
+                                                    "text": "To be continued",
+                                                    "end_game": true,
+                                                    "sound": "Res/Audio/Shotgun.wav"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1229,11 +2131,144 @@
                 },
                 {
                     "image": "Res/Parts/svema_39/Middle.png",
-                    "parallaxStrength": 5
+                    "parallaxStrength": 5,
+                    "audio_sources": [
+                        {
+                            "position": [75, 37],
+                            "size": [10, 15],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true 
+                        },
+                        {
+                            "position": [87, 40],
+                            "size": [8, 10],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true 
+                        },
+                        {
+                            "position": [0, 25],
+                            "size": [20, 30],
+                            "audio": "Res/Audio/SFX/rustlingLeaves.mp3",
+                            "loop": true 
+                        }
+                    ],
+                    "interactions": [
+                        {
+                            "id": "svema_39_shipBackground",
+                            "position": [76, 38],
+                            "size": [8, 12],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "There's three ships here for some reason..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "All facing the same direction..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_39_shipBackground",
+                            "position": [88, 41],
+                            "size": [6, 8],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "There's three ships here for some reason..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "All facing the same direction..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "image": "Res/Parts/svema_39/Foreground.png",
-                    "parallaxStrength": 10
+                    "parallaxStrength": 10,
+                    "audio_sources": [
+                        {
+                            "position": [35, 20],
+                            "size": [35, 35],
+                            "audio": "Res/Audio/SFX/mysteryHum.wav",
+                            "loop": true 
+                        }
+                    ]
+                },
+                {
+                    "image": "Res/Parts/svema_39/Foreground.png",
+                    "parallaxStrength": 10,
+                    "interactions":[
+                        {
+                            "id": "svema_39_people",
+                            "position": [25, 35],
+                            "size": [10, 25],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "You think we can use any of these ships to get your car back?",
+                                    "talker": 0
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Even if we could... It's not worth it...",
+                                    "talker": 1
+                                },
+                                {
+                                     "type": "dialogue",
+                                    "content": "I am not going back to that freak...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Besides... my car is most likely scrap by now...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Let's just keep moving... We need to find food and water...",
+                                    "talker": 1
+                                },
+                                {
+                                    "type": "scene_transition",
+                                    "scene": "svema_36_intro_ship"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "svema_39_shipA",
+                            "position": [36, 21],
+                            "size": [33, 33],
+                            "events": [
+                                {
+                                    "type": "dialogue",
+                                    "content": "A giant ship of some kind..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "How a normal sized person could fit in here beats me..."
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "Doesn't seem like it still works"
+                                },
+                                {
+                                    "type": "dialogue",
+                                    "content": "..."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
