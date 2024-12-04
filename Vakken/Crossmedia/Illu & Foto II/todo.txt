@@ -1,0 +1,29 @@
+Illu & foto 2:
+- al verslag maken!
+
+TAKEN:
+Les 1:
+Beschadigde foto, met genoeg te herstellen
+300ppi
+pas de restauratie technieken toe uit de les
+Einderesultaat als psd en pdf (pdf mag toegevoegd zijn aan he verlag)
+geef duidelijk aan bij welke les je bestand hoort
+
+Les 2:
+Met adjustment layers en blending technieken kleur veranderen in beeld op 1 beeld (zelf gezocht) textuur toevoegen (max uit mapje van de les)
+1. Zoek een foto waarop je het onderwerp van kleur verandert via adjustment layers en de blending technieken uit de les
+2. Optimaliseer een beeld en voeg een textuur toe. Maak gebruik van de advanced blending options die we gezien hebben in de les. De foto zoek je zelf, de texturen het liefst ook. Wie geen eigen texturen kan vinden kan je gebruik maken van de texturen uit het mapje "textuur" in de lesmap.
+Maak screenshots van je proces en noteer welke stappen je neemt.
+Verslag (pdf) indienen met screenshots van het verloop van je werk, dat je panels zichtbaar zijn en beschrijf je werksmethode zodat je je eigen tutorial opbouwt. Dien daarnaast ook het eindresultaat van je opdracht in als photoshop-document en als pdf (pdf mag ook in verslag toegevoegd zijn)
+Geen ZIP maar een PDF + PSD bestand, geef duidelijk aan bij welke les je bestanden horen
+
+Les 3:
+Zet een beeld om naar zwart-wit via black & white adjustment layer/zwart-wit aanpassinglaag en voeg een kleur toe.
+Neem een beeld en pas een LUT toe, maak een eigen LUt en dien die in bij bestanden en pas die toe
+Creeer een duotoon via gradient map adjustment layer/verloop toewijzingslaag.
+
+Les 4:
+Double exposure zelf maken uit min 5. zelfgekozen beelden, er moet een blending zijn van alle lagen
+
+Les 5:
+- Laptop checken voor files les 5 + opdracht!
