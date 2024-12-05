@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lego Draw It!</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+
+      #canvas {
+      }
+
+      #texture-preview {
+        width: 500px;
+        height: 500px;
+        background-color: #ddd;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <div id="texture-preview"></div>
+
+    <script src="threejs/three.js"></script>
+    <script src="p5/p5.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
