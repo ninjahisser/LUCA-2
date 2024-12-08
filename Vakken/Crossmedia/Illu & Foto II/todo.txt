@@ -6,24 +6,97 @@ Les 1:
 Beschadigde foto, met genoeg te herstellen
 300ppi
 pas de restauratie technieken toe uit de les
+- Originele laag dupliceren voor niet destructief
+- Zwart wit en color properties aanpassen
+- Image, adjustmentls, shadows and hihglights trweaken
+- Nieuwe laag: shift alt ctrl E
+- Smart object maken
+- Dust and scratches (filter, noise, dust en scratches)
+- Burn en dodge tools gebruiken
+- Spot healing brush gebruiken
+- Patch tool gebruiken
+- Clone stamp tool
+- Color balance shadows
+- Color balance highlights
+- Sharpen, smart sharpen
+
 Einderesultaat als psd en pdf (pdf mag toegevoegd zijn aan he verlag)
 geef duidelijk aan bij welke les je bestand hoort
 
 Les 2:
 Met adjustment layers en blending technieken kleur veranderen in beeld op 1 beeld (zelf gezocht) textuur toevoegen (max uit mapje van de les)
 1. Zoek een foto waarop je het onderwerp van kleur verandert via adjustment layers en de blending technieken uit de les
+- object selecteren object selection tool (lasso mode)
+- masker maken
+- bloem feller maken via curves en clipping mask 
+- adjustment layer op de laag eronder beeld donkerder maken via curves
+- vibrance adjstment layer (clipping mask)
+- blacke nw hite adjustmant layer op de achtergrond
+- blending en opacity adjustment layer black en white (bv. soft light en 80%)
+- hue en saturation gebruiken om kleur te veranderen met masker
 2. Optimaliseer een beeld en voeg een textuur toe. Maak gebruik van de advanced blending options die we gezien hebben in de les. De foto zoek je zelf, de texturen het liefst ook. Wie geen eigen texturen kan vinden kan je gebruik maken van de texturen uit het mapje "textuur" in de lesmap.
+- Textuur maken en beeld optimaliseren
+- Auto color correction option selecteren die het best past bij curves (alt op auto klikken) (= zweem verwijderen)
+- textuur laag toevoegen
+- laag blending aanpassen voor beste effect
+- fx -> blending optiosn
+- onderste gradient ding aanpassen in blending options
+- 
 Maak screenshots van je proces en noteer welke stappen je neemt.
 Verslag (pdf) indienen met screenshots van het verloop van je werk, dat je panels zichtbaar zijn en beschrijf je werksmethode zodat je je eigen tutorial opbouwt. Dien daarnaast ook het eindresultaat van je opdracht in als photoshop-document en als pdf (pdf mag ook in verslag toegevoegd zijn)
 Geen ZIP maar een PDF + PSD bestand, geef duidelijk aan bij welke les je bestanden horen
 
 Les 3:
 Zet een beeld om naar zwart-wit via black & white adjustment layer/zwart-wit aanpassinglaag en voeg een kleur toe.
+- Beeld kiezen
+- Curves: contrast verbeteren en via alt + auto enhancen
+- Black and white adjustment 
+- Tint button en kleur kiezen
+
 Neem een beeld en pas een LUT toe, maak een eigen LUt en dien die in bij bestanden en pas die toe
+- Beeld kiezen
+- Lut maken (adjustment layers selecteren)
+- File, export, color lookup table
+- Adjustment layers -> Color lookup
+
 Creeer een duotoon via gradient map adjustment layer/verloop toewijzingslaag.
+- Beeld kiezen
+- Curves en beeld tweaken
+- Gradient map adjustment layer
+- Duotoon maken
 
 Les 4:
 Double exposure zelf maken uit min 5. zelfgekozen beelden, er moet een blending zijn van alle lagen
+Creeer een double exposure aan de hand van minimale 5 beelden.
+- beeld selecteren dat zorgt voor vorm (onderwerp dient als een soort van vulling/textuur)
+- 5 beelden selecteren
+- achtergrond textuur selecteren
+- Beelden in elkaar blenden door technieken uit de les (masks, layer styles, blendings, opacity, filters, adjustments layers, ...)
+- isoleer onderwerp (masker onderwerp alleen)
+- beelden moeten mooi in elkaar verlopen
+- achtergrond maken uit textuur
+- meer beelden mengen
 
 Les 5:
-- Laptop checken voor files les 5 + opdracht!
+Kies een effect (vintage effect of effect met HDR-toning) en pas toe op beeld naar keuze
+Vintage beeld maken:
+- black en white maken met adjustment layer
+- Kleurwaarden adjustment layer aanpassen voor hoger contrast
+- Beeld sepia maken door rood en geel optrekken color balance
+- Color balance dupliceren voor sterker effect
+- Lagen samenvoegen en slim object maken (shift + alt + ctrl + E)
+- convert to smart object
+- window -> channels
+- selecteer kleur laag (ctrl + klik)
+- als masker gebruiken en kleur selecteren + soft light blending
+- filter -> noise -> add noise (gaussian)
+- curves layer
+- shift + i op curves mask en met brush donkere stukken lichter maken
+- Nieuwe curvelaag
+- Ctrl + A
+- Select -> modify -> contract
+- Select -> modify -> feather
+- Delete (fill met zwart)
+- Beeld doffer maken met curve laag waar we op wekren heel de tijd
+
+Dien PDF in met screenshots van het verloop van je werk, zorg dat je panels zichtbaar zijn en beschrijf je werkmethode etc...
