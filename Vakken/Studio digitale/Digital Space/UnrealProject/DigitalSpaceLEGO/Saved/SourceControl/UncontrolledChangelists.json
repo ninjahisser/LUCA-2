@@ -7,7 +7,27 @@
 			"files": [
 				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Levels/Default.umap",
 				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Blueprints/GamemodeDefault.uasset",
-				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Blueprints/DefaultCharacter.uasset"
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Blueprints/DefaultCharacter.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Figurine.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/UnwrappedTexture.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/CRT_Unwrap.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Figurine_PhysicsAsset.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Figurine_Skeleton.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Material_14_c.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Material_191_c.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Material_1_c.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Material_4_c.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/NewTextureRenderTarget2D.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/CRT_PaintMask.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Skin.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Pants.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Shirt.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Hat.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/PaintMask.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/M_Unwrap.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/PaintSystem/M_PaintTexture.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/Texture.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Assets/FigurineMaterial.uasset"
 			]
 		}
 	]
