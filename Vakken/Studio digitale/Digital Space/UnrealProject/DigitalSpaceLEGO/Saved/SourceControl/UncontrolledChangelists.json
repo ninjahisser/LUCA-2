@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Levels/Default.umap",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Blueprints/GamemodeDefault.uasset",
+				"F:/LUCA-2/Vakken/Studio digitale/Digital Space/UnrealProject/DigitalSpaceLEGO/Content/LEGODRAWIT/Blueprints/DefaultCharacter.uasset"
+			]
+		}
+	]
+}
