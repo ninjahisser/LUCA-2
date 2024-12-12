@@ -15,6 +15,11 @@
 			"Name": "FlatNodes",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b719437f3fb54c259b34227363df8cab"
+		},
+		{
+			"Name": "Smartsuit",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7e20fe7d4247410cb4f7d3e162d61c21"
 		}
 	]
 }
