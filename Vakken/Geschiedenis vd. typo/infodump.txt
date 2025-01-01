@@ -1,0 +1,170 @@
+Johannes Gutenberg = 14-15de eeuw, Duitsland, Uitvinder van de boekdrukkunsten en machinale letterdruk, fonts gebasseerd op destijds courant handschrift van monikken (blackletter)
+Laurens Janzoon Coster = 15-15de eeuw, Nederland, Samen met Gutenberg uitvinder van de boekdrukkunst
+Dirk Martens = 15de eeuw, Eerste boekdrukker van de lage landen
+Christophe(l) Plantin = 16de eeuw, Frankrijk (naar Antwerpen verhuist), Uitbreiding van de drukwereld, alles werd beter, monopolie op het drukken van bijbels
+(alle letterdelen toevoegen met foto en lijnen)
+Augustijn, Cicero = Nederlandse benaming voor 12 punt lettercorps
+Pica = Engelse benaming voor 12 punt lettercorps
+St-Augustin = Franse benaming voor 12 punt lettercorps
+Kapitalen = Capitals, De letter blijft telkens letterdikte/letterstamdikte/etc. Behouden ongeacht soort case, Insert foto kapitalen
+Onderkasten = Lowercase, De letter blijft telkens letterdikte/letterstamdikte/etc. Behouden ongeacht soort case, Werden beneden gezet op de bok. insert foto onderkasten
+Bovenkasten = werden bovenaan gezet op de zethaak/compositiesticks = telkens per paragraaf en per kolombreedte letters zetten.
+Kleinkapitalen = Small Caps, De letter blijft telkens letterdikte/letterstamdikte/etc. Behouden ongeacht soort case, Insert foto small caps
+Mediavalcijfers = Hangende cijfers, old style figures, hanging figures, Doorgaans meer gebruikt voor geboorte/-sterfdatum om cadans van lettertype te verbreken, insert foto mediavalcijfers
+Tabelcijfers = Blokcijfers, Bv. Economisch verslag/voetbal uitslag, insert foto tabelcijfers
+Cursiefletters = Italic, Humanistisch, O.b.v. handschrift, om een persoonlijkere benadering naar de lezer te bereiken. Insert foto cursiefletters
+Schuine romijnen/obliques/sloped roman, Bestaande letter bepaalde graden draaien, "beste soort cursief, want behoudt vorm van de tekst", insert foto schuine romijnen/oblique
+Capitals = insert foto capitals
+Lowercase = insert foto lowercase
+Small caps = Zodat de zwart - wit balans nog goed is ten opzcihte van de basistekst/anders krijgen je witeilanden, insert foto small caps
+Figures = insert foto figures
+Punctuation marks = insert foto punctuation marks
+Ligatures/Ligaturen = Samenstelling van diverse letters, speciale tekens die ontstaan door het combineren van twee of meer lettesr tot één symbool. Dit wordt vaak gedaan om typografische esthetiek te verbeteren of om technische redenen (zoals het vermijden van ongewenste spaties, en ruimte creeeren tussen letters)., insert foto ligatures, insert foto ruimte creereren tusesen letters
+Diacritical marks & accented characters = insert foto diacritical marks & accented characters
+(Letter)Weight = Verwijst naar de dikte of vetheid van een lettertype (font). Het geeft aan hoe zwaar of licht de letters eruit zien, vaak gemeten in termen van "dun", "normaal", "vet", etc.
+Wordspace = De witruimte tussen twee woorden
+Vast zetsel/solid typesetting = Tekst gezet onder interlinie
+Interlinie (vroeger): de lijnen lood die tussen elk twee lijnen tekst ingezet werden om de leesbaarheid te bevorderen
+Intlinie (nu): De afstand tusesn twee basislijnen
+Vast zetsel = tekst zonder interlinie
+Tekst alignment = Links uitgeleind/gecentreerd/rechts uitgeleind
+Overhangende delen = Vlaggetjes die langer zijn de breedte, kan botsen met andere letters, insert foto overhangende delen
+Kopwit = bovenmarge, insert foto kopwit/bovenmarge
+Staar- of voetwit = ondermarge, insert foto ondermarge
+Zijwit = buitenmarge, insert foto buitenmarge
+Rugwit = rugmarge, insert foto rugmarge
+Bladspiegel = rand van het papier dat je gaat bedrukken, insert foto bladspiegel
+Zetspiegel = papier gaat gevouwen en afgesneden worden dus door het afsnijden om het katernen te verzamelen van ketst weggaan moet je heel het papier gebruiken, insert foto zetspiegel
+Edward Johnston = Schrijven, met de hand, vader van de moderne typografie, starter van fonts/echte typografie, insert foto underground font
+Gerrit Noordzij = Heeft begrippen translatie en expansie uitgevonden, 19de eeuw (insert foto kubus ding)
+Translatie = Letters gemaakt met de brede pen, contrast wordt verkregen door de breedte en de hoek van de pen
+Expansie = letters gemaakt met de gepunte pen, contrast is afhankelijk van de druk op de pen
+Fase 1 geboorte typografie = 1297, Aziatische letterdruk, Voorsprong op het wetsen, eerst kleletters, later uit hout gesneden (zoals de westerse loden letters)
+Fase 2 geboorte typografie = 1454, Johannes Gutenberg (machine letterdruk)
+Fase 3 geboorte typografie = 1465, Subiaco type (eerste romeine letter) (Arnoldus Pannartz x Conradus Sweynheym), boekdrukkunst verspreid zich als sneltrein door Europa, Eerste drukkerij die gebroken schrift ging vervangen met humanistische letters (betere leesbaarheid door ruimte tussen letters, voorloper romeine letter), insert afbeelding
+Fase 4 geboorte typografie = 1473-1474 = William Caxton, engelse drukker die als eerste in leer ging om eigen drukpers op te richten/letter te maken (gebeurde in keulen, waar gutenberg begon), Canterbury tales (met collega in brugge) -> "handgeschreven fonts" (drukt controversieel geen bijbels, maar toffe verhalen) (had wel nog hoog statuut (mocht zijn drukken tonen aan de koning))
+Fase 5 geboorte typgrafie = 1473 - Dirk Martens - eerste druk in de Nederlanden in volledig handgemaakt font -> humanistischer, Drukte teksten voor filosofen/geleerden/wetenschappers (bv: thomas more's utopia -> eerste experimenten van volledig alfabet (semi romeinse drukletters)) (insert foto romeine drukletters)
+Fase 6 geboorte typografie = 1479-84 - Colard Mansion - Eerste drukletter, handmatig ontworpen, machinaal gedrukt, Rotunda -> ronde, gesloten vorm, die vaak in oudere of meer klassieke lettertypes voorkomt. Eigen drukmerk om afkomst/regio van drukwerk te tonen -> wapenschild dat klanten trekt, kalligrafische drukletter -> versierd font (religieuze teksten), druk krijgt meer kleur koper mag kiezen in welke kleuren hij de druk aankoopt, font werd later gedigitaliseerd, verplaatste door kolonisatie ook naar het verre noorden, Dwars streepje van de "e" bv. van handgeschreven eigenschap in fonts, werd altijd in het begin van een drukwerk geplaatst -> een van de eerste dingen die de lezer ziet
+Sierinitiaal = insert foto sierinitiaal
+Drukkerij vroeger = bestond uit een deel war letters werden gemaakt en letters werden gedrukt, in het begin: lettersnijder, zetter, drukker, beinkter
+Lettersnijder = maakt de letters door middle van een loop. Als de letter perfect was werd die in het vuur gegooid en bleef die hetzelfde. maakten stempels en het beeld van de stempels werd in de koperen matrijs geslagen (spatiering werd hier ook al bepaald)
+stempel = ze gaan met beitels en vijzels in een stalen staafje letters graveren, de ogen en counters zijn voor elke letter hetzelfde (met counterpunch), de stempels waren ook het goud van de drukkerij, bestaat uit hard metaal. met het goud van de lettergieterij kon je matrijzen maken. Ook voor andere drukkerijen (+ foto toevoegen stempel)
+koperen matrijs = hierin werd het beeld van de stempel geslagen (spatiering werd hier ook al bepaald)
+Lettergieter = goot het kokend lood in de matrijs. goot het kokend lood in de matrijs, bestaat uit koper. Steekt koperen matrasjes in gietmal en kokend lood over letters gieten. (foto toevoegen)
+stempel, matrijs, letters materiaal: stempel (punch) = hard metaal, matrijs (matrix, matrices) = koper, letters (type, sorts) = lettermetaal; lood + tin + antimoon (lood is zwaar en duur dus werd er tin bij gedaan, antimoon zorgt ervoor dat mengsel meteen afkoelt wanneer je matrijs giet)
+letterkast = voeg foto letterkast toe, uppercase vanboven in de kast, lowercase vanonder
+caselay = layout van de kast is obv veelvoorkomendheid van letter (veel = groot vakje), elke drukker had eigen mengeling
+zethaak = worden de letters opgezet om tekstopmaak te bepalen die uiteindelijk op de zetspiegel zou komen
+katernen = in het begin drukte ze pagina per pagina, maar al snel gingen ze werken met katernen, om dit de doen heb je veel letters nodig, deze werden bewaard in een letterkast (uppercase & lowercase), foto toevoegen katern blad vouw ding
+letterzetter = maakte gebruik van een zethaak om alles bij elkaar te zetten, letters werden kolom per kolom en per paragraaf gezet, daarna werden de letters naar de steen gebracht en vastgezet om te voorkomen dat alles viel, letters in lood konden tot max 72pt gaan want het lood was te zwaar om nog groter te gaan, dan werd hout gebruikt.
+zetblok = foto zetblok
+het maken van een font stap 1 = handmatig graveren van letter in stalen staafje (met blote oog) (gebeurd in spiegelschrift, counterform gaat als eerste weg)
+het maken van een font stap 2 = rookproef
+rookproef: stalen staafje boven kaars houden en druk uittesten
+het maken van een font stap 3 = stalen staafje in koperen matrijs plakje drukken
+het maken van een font stap 4 = apparte letters worden apart in gietmal gegoten -> afgekoeld -> afgewerkt (lettermetaal bestaat uit lood, tin (gewicht verminderen) en antimoon (snel afkoelen))
+stempel negatief = foto invoegen stempel negatief
+matrijs positief = foto invoegen matrijs positief
+drukletter negatief = foto invoegen drukletter negatief
+gedrukte letter positief = foto invoegen gedrukte letter positief
+stalen staaf = de stempel
+ogen/counterpunch = binnenvormen van verschillende letters zijn identiek. Stalen stempel word boven kaars gezet, zo worden rookproeven gemaakt.
+Uitvinding gutenberg = letters vermingvuldigen. Matrijs werd links en rechts afgesneden, daarna in het gietmaal.
+Lettermetaal = mengeling van lood-tin-antimoon
+Kaptellen per kaptellen drukken = altijd een veelvoud van 4 - meestal een bundel van 16 pagina's of meer, naar gelang frequentie werd er een andere layout gemaakt.
+Drukpers = werkt met een riem papier, waar men met een frame de zetspiegel bepaalt.
+Rotatiepers = op hoog tempo meerdere koppies van een bepaalde druk rollen
+Inslagschema = blad -> vouwen -> katernen -> naaien -> boek (voeg foto toe papiervouwen)
+Dries van Noten heeft dit ook eens toegepast op een van zijn kledingscollecties
+Hierin wordt de tekst vormgegeven
+Monotype = 1897, 19e eeuw = Tolbert Lanston - zoek naar machinale wijze om letterzetten te versnellen, toetsenbord verbonden met letterdruk. Toetsenbord perforeert in blauw papier, dat naar de gietmachine wordt gezet om letter te kunnen gieten. Letterkasten verdwijnen, grote fabrieken vol monotypes (enorm luid), matrijzenraam werkte met kolommen letter per letter te gieten, massaproductie: methode voor het zetten van letters te versnellen, op stoom, voeg foto's toe monotype
+Monotype voordeel = kolommonen werden gedrukt deze kon je opnieuw recycleren de letters worden opnieuw gegoten (sneller + rendabel), toetsenbord stond in verbinding met rolletje van papier, alle loden letters worden verzameld en zijn verbonden aan buizen, letterzetters typen toetsen in, automatisch elke letter per letter gegoten, spatiering wordt bepaald, principe van recyclage (letters van oude letterkasten kunnen worden hergebruikt, fouten zijn makkelijk te corrigeren (letters worden er dan uitgehaald met pincet)), wordt bijna niet meer gebruikt
+Linotype machine = 1886, uitgevonden door Otto Mergenthaler, matrijzen zitten bovenaan in de machine en vallen in op papier door de letters in te typen op het toetsenbord, de gietkop gaat dus direct de regel gieten; Meerdere variaties in letters, maar hebben altijd omgeveer zelfde grootte; line of type -> linotype (in 1 regel), enorm successs, enorm snel verspreid vanuit London, principe van toetsenbord en andere machines samen, voornamelijk voor kranten, foto invoegen linotype machine
+Linotype voordeel: letters worden opnieuw gesmolten (recyclage); je kan verschillende lettertypes op dezelfde matrijs gebruiken; letters kunnen er niet uitvallen; alle matrijzen bovenaan verzamelen; verzamelt tot een volledige zin; machine uit één geheel; hele zin kon in 1x worden gegoten; spatiebalk wordt speciaal ingesteld; recyclage (wanneer de zinnen gegoten zijn worden ze terug gesmolten); wordt bijna niet meer gebruikt
+Typmachine = 19de eeuw, bureauwereld, letters zijn robuuster, meer regelmaat; letters staan op hendels die gebogen worden/bewegen richting het papier door het gebruik van je toetsenbord; stencil-letter voor reclame/architecturale technische tekeningen/transport kisten beschrijvingen; opgezet als een bord van zeeslag; meerdere letters op een matrijs; gebeurde met paard-kar en vervolgens met schip; elke machine had vaak eigen letter; foto toevoegen typmachine tekst ding
+Typmachine voordelen = gewoon thuis te gebruiken, gelijkmatig als monotype en linotype; meerdere exemplaren van een tekst redelijk snel uittypen; snel effecient goede letter schrijven en voor iedereen doenbaar
+Typmachine nadelen = verlopen inkt; monolineair -> gehele alfabet heeft zelfde dikte; doorbrekende ezelsbruggetjes naar ogen/counters; soms problemen met leesbaarheid (kraalrand); letters mogen niet te dunne benen hebben anders gaan ze door het lint. (Hiervoor zijn speciale fonts gemaakt)
+Stenselletters = vluchtige en snelle manier aanbrengen; werd met verf of spray aangebracht; goed zichtbaar; kapitaal: handiger, makkelijker aan te brengen; voeg foto toe stenselletters
+De foto-typesetting = 1953 - letters met licht drukken; letters zitten op een draaischijf en worden in een Doka belicht op fotogevoelig papier. De lens waarmee ze de letter belichten, bepaalt de letterdikte; Veel geschiedkundig materiaal gaat met wegwerkpen van de dan onnodige letterkasten verloren; 1950 -> eerste schermfont; voorloper van computer; univers-font; in machine zit een donkere kamer; turret lens; vergroter; papier/film
+De foto-typesetting voordeel = verschillende soorten stijlen, andere groottes, geen verschillende matrijzen nodig
+univers-font = 1957-58 - instellingen op fototypemachine waarmee je het gewicht van de letter in een font kan bepalen
+De foto-typesetting werking = Licht -> fontdisk -> turret lens (vergroter) -> positionering element -> papier/film
+Digitale typografie 1984 - The first macinotosh - komst van apple veranderd drukkunst overnacht -> globale toegankelijkheid en simplicteit uit comfort
+lettervorm = een met de hand gemaakte presentatie van een letter, bv: graffiti
+karakter/typevorm = een met een machine representatie van een letter, worden verzameld in een character set volgens een specifiek encoding schema (font representeert deeze informatiestructuur), bv: loodletters
+set of typeforms: foto toevoegen set of typeforms
+character set = welke karakters er deel van de typevorm uitmaken (foto toevoegen character set)
+Karakter = een beschrijving van een eenheid in een specifiek schrijfsysteem (bv. Latijnse onderkast 'A')
+Glyph = een representatie van een karakter, de informatie die nodig is om een karakter weer te geven, bv: €
+Digitale typografie voordelen = je moet niet naar de printer gaan, digitale fonts, grote verandering op vlak van handzetten
+Overzicht 15-20ste eeuw typografie evolutie: 15de eeuw (1450) -> Metalen drukletters; 19de eeuw (1884) -> industriele zetmachines; 20ste eeuw (1953) -> fotografisch letterzetten; 20ste eeuw (1984) -> digitale typografie
+Digitale font-evolutie: unicode = voeg foto toe unicode, een internationaal standaard (nauw samenhangend met ISO-10646) voor de codering van grafische tekens en symbolen in binaire codes, vergelijkbaar met ASCII-standaard (bv. dollarteken ($) = 0024)
+Digitale font-evolutie: meest voorkomende character sets = voeg foto toe meest voorkomende character sets
+Digitale font-evolutie: glyph-informatie = Counter (outline), meest voorkomende countour formaten: postscript type 1, truetype (afhankelijk van OS), bevat: informatie over de vorm, maateenheden (metrics), aanwijzingen, andere contourformaten: ikarus/metafont/postscript type/postscript type 42/Open Type
+Digitale font-evolutie: OPEN TYPE = opvolger van truetype, platform onafhankelijk (zowel mmac als pc), ongelimiteerde character sets, mogelijkheid om te personaliseren
+Edward Johnston = 19de eeuw, belettering van "the undergorund" in London (schreefloze letters) (foto toevoegen) (ze zochten een letter die rust bracht in de chaos van alle lettertypes), humanistische touch (zie puntje I = vierkantje op 45°)
+Eric Gill = Schrijven met de hand, 19de eeuw, Leerling van Edward Jonhston, foto toevoegen, technische tekening met schreefloze letters -> later veel getekende letters, leerde wijn leerlingen fonts uit stenen te kappen, Gill Sans (monotype), humanistische touch, zie bv. de Q en K die heel speels zijn en vernieuwend, en zo een tijdperk achterlaten (humanitische eigenschap), werkte mee aan het font voor "the british railway", geometrisch en geconstrueerd, experimenteren met lettervormen, voeg foto's toe
+Gerrit Noordzij = schrijven wordt typografie, 19de eeuw, voeg foto's toe, zag het belang van schrijven en leerde het aan zijn omgeving, 2 tools voor opzet van een letter: brede pen (= contrast wordt bereikt met breedte en gehouden hoek van de pen), spitse/gepunte pen (= expansie; contrast wordt bereikt door druk van pen en papier), geeft les in Den Haag
+De cube van Noordzij = voeg foto toe, alle lettervormen zijn hierdoor te classificeren
+Translatie = letters gemaakt met de brede pen, contrast wordt verkregen door de breedte en de hoek van de pen (voeg foto toe)
+Expansie = letters gemaakt met de gepunte pen, contrast is afhankelijk van de druk op de pen. (voeg foto toe)
+Kalligrafie = schrijven wordt typografie, schoonschrift -> schoonschrijven om papier mooi te maken (versiering/kleurencorrelaties)
+Brody Neuenschwander = voeg foto's toe, Kalligraaf, performance art/kalligrafie -> focus op live techniek te tonen zonder de mogelijkheid te herbeginnen
+Belettering = schrijven wordt typografie, techniek/proces waarbij tekst op een oppervlak/ondergrond wordt geplaatst, nu vooral in India & Mexico -> bv: reclame (op groot formaat), gebeurde vroeger meer omdat het duur was om iets te laten drukken, toonde vroeger het statuut van een establishment, maar nu is dit minder door het uitstervende beroep
+David A. Smith = maakt belettering met goud en zilver op glas (voeg foto's toe), typograaf in glasbelettering
+Graffiti/street art = schrijven wordt typografie, boodschappen op vaak illegale manieren verspreiden
+Ben eine = graffiti/streetartist - boodschappen doorheen London in decoratieve letters (grotendeels illegale projecten) (voeg foto's toe), haalt inspiratie uit grote kapitalen, maakt gebruik van een micas/stencils/projecteren
+Shephard Fairy = Graffiti/streetartist, visuele/grafische vormgeving van propaganda posters tijdens het constructivisme in Rusland, metalen stensels op krantenpapier -> over straten van London verspreid, propaganda posters -> iconografie, constructivistische letters, streetart, werkt vaak met sjablonen, bv. Oney/"hope"-poster Obama
+Handpainted type/hanif kureshi = toegepaste belettering, in de straten van Indië gaat hij sign painters zoeken en vraagt met een interview of ze een alfabet willen tekenen zodat hij deze kan digitaliseren, om de stiel te bewaren
+Type foundry underware = Maakt letters geinspireerd op handschriften: "Bello": penseel zichtbaar, eindeloze combinatie van ligaturen, "Sauna": rondere vormen, editoriaal, affiches/belettering, ... (foto's toevoegen), "Duos": meerdere betekenissen van een woord door letters te ontwerpen die verschillend gelezen kunnen worden
+
+Collard Mansion = afbeelding toevoegen, Typograaf van lage landen, 1470 Brugge, schrijfer/kalligraaf, doet o.a. opdrachten voor koningen, vertaalde voor het eerst teksten naar Frans/Engels in en Latijnse, versierde pagina's naargelang de opdrachtgever, 2 drukletters gemaakt: Bastarda (inspiratie uit kalligraferen) en Rotunda (kleiner en dichter bij elkaar, humanistische invloed, ook invloed van het handschrift, robuuste schreven, enkel vertaalde teksten van uit het Frans)
+Enschedé (Drukkerij) = afbeelding toevoegen, typografie uit de lage landen, ook posterletters gemaakt, ornamentele titel corpsen, drukken waardepapier (passporten, bankzaken/...) (heel bekend hiervoor, nu ook nog)
+Paul van Ostaijen = 1916-1928 dichter, bestaande stad & boempaukeslag -> kinetische typografie, afbeelding invoegen
+Wim Crauwel = afbeeldingen toevoegen, "Gridsnik": voorstander van het grid/raster tot in extreem, modernist (werkt volgens Bauhaus), Swiss Design (weinig verschillende fonts door elkaar gebruiken), veel grafisch werk gedaan (waaronder ook Makro logo), Letterontwerpen waren enkel als alfabet, niet als font, ook postzegels, Lettertype "New Alphabet": voor fototype-zetten, geen diagonale streken, geen hoofdletters, volgesn grid opgesteld
+Classificatie van lettertypes basisgroepen = = 1) black letter (gebroken schrift): pointer blacklisters, rotunda, schwabacher, fraktur; 2) venetiaanse letter, 3) old face (en cursief), 4) transitional (en cursief); 5) moderne (en cursief), 6) sans-serif - old style (en cursief), 7) slab serif; 8) old style (cursive); 9) scripts; 10) decoratieve & displays
+Black letter (gebroken schrift) = 
+Venetiaanse letter = 
+Old face (en cursief) = 
+Transitional (en cursief) = 
+Moderne (en cursief) = 
+Sans-serif - old style (en cursief) = 
+Slab serif = 
+Old style = 
+Scripts = 
+Decoratieve & displays = 
+Eerste soort indeling classificatie van lettertypes = fotos invoegen, 1) richting vd schreven; 2) dik/dun verhouding; 3) unieke letters zoals E G A F bekijken; 4) proporties/breedte; 5) as van de ronde delen van de letter
+Tweede soort indeling classificatie van lettertypes (per eeuw) (15-16de eeuw) = humanen
+Tweede soort indeling classificatie van lettertypes (per eeuw) (16-17de eeuw) = garalden
+Tweede soort indeling classificatie van lettertypes (per eeuw) (17-18de eeuw) = realen
+Tweede soort indeling classificatie van lettertypes (per eeuw) (18-19de eeuw) = didonen
+Tweede soort indeling classificatie van lettertypes (per eeuw) (19-20ste eeuw) = mechanen, lineairen: grotesken, geometrische, humanistische), inciezen
+Tweede soort indeling classificatie van lettertypes (per eeuw) (continu) = scripten, manuaren/calligraphics (frankturen/blackletters), niet-latijnse, symbolen
+Tweede soort indeling classificatie van lettertypes (per eeuw) (20e eeuw) = post-moderne
+Derde soort indeling classificatie van lettertypes = Voxclassificatiesysteem, maximilien vox (gaat letters classificieren volgens de periode waarin ze voorkomen en gaat personen eraan linken, 1894-1974, internationaal voorgesteld, zijn classificatie is een start maar hij is gestorven voor de computerperiode, er vallen dus veel letters buiten de classificatie)
+voxclassificatiesysteem = kenmerken van leters, het classificeren van letters (voeg foto toe)
+Voxclassificatiesysteem (humanen) = foto toevoegen, gebaseerd op romeinen, simuleren schrijfwijze uit manuscripten, rond en fors letterbeeld, korte en dike hoekige schreven, vaan een schuine dwarsbalk door de 'e', schuine schreven op de stokken, laag contrast tussen dik en dun, de as van het contrast staat schuin naar links
+Voxclassificatiesysteem (garalden) =  foto toevoegen, Vernoemd naar Claude Garamond, veel overeenkomst met de humanen, fijnere proporties en groter contrast dan de humanen, de as van het contrast staat ook schuin naar links, fijne puntige schreven, meer open en sierlijker uiterlijk
+Voxclassificatiesysteem (realen) =  foto toevoegen, letters die stammen uit midden 18de eeuw, zakelijker, strenger van karakter en ontstonden tijdens laatste bloei van het koningschap, realen = reëel x royaal, groter contrast dik en dun dan voorgaande groepen, as contrast staat semi-verticaal, de schreven lopen meestal vloeiend uit de letters en zijn nauwelijks gewelfd.
+Voxclassificatiesysteem (Didonen) =  foto toevoegen, kan als modern worden aangeduid, het contrast is heel hoog, de verbindende lijnen zijn heel dun, terwijl de gewone lijnen juist heel dik zijn, een sterk verticaal contrast, met zeer dunne, rechte schreven
+Voxclassificatiesysteem (Mechanen) =  foto toevoegen, de vroege vette letters, de naam refereert aan het mechanische, rechte uiterlijk van de letters, populair tijdesn de industirele revolutie (begin 19de eeuw), bv. reclameposters, clarendons en egyptiennes vallen hieronder, alle lijnen zijn grotendeels overal even dik. De schreven zijn dik en hoekig (blokschreven)
+Voxclassificatiesysteem (Linearen) =  foto toevoegen, alle schreefloze lettesr vallen in deze groep, deze groep bestaat uit vier subcategorien
+Voxclassificatiesysteem (Linearen: Grotesken) =  foto toevoegen, wortels in de 19de eeuw, matig tot klein contrast, de 'G' heeft meestal een puntig uitsteeksel, de 'R' heeft een golvende staart, de uiteinden van de letters zijn meestal horizontaal afgesneden
+Voxclassificatiesysteem (Linearen: Neo-Grotesken) =  foto toevoegen, nog minder contrast als grotesken, meer uniform en gebalanceerd uitgewerkt, de 'G' heeft meestal geen puntig uitsteeksel, de uiteinden van letters zijn vaak schuin afgesneden (bv. Helvetica)
+Voxclassificatiesysteem (Linearen: Geometrisch) =  foto toevoegen, eenvoudig van vorm, opgebouwd uit cirkels en rechthoeken, vormen worden hergebruikt, zodat alle letters veel op elkaar lijken, en er een evenwicht tekstbeeld ontstaat
+Voxclassificatiesysteem (Linearen: Humanistisch) =  foto toevoegen, gebasseerd op klassieke handgeschreven stijlen, niet lang niet zo rigide als de grotesken
+Voxclassificatiesysteem (Inciezen) =  foto toevoegen, Lijken alsof ze uit stenen of metaal zijn gebeiteld of gegraveerd, in plaats van handschrift, de nadruk ligt meestal op de kapitalen, kleine schreven, of soms ontbrekende de schreven en worden de uiteindes van letters iets breder, sommige lettertypes zijn gebasseerd op inscripties van monumenten (bv. Zuil van Trajanus)
+Voxclassificatiesysteem (Script) =  foto toevoegen, Lijken handgeschreven, botsen vaak een schrijfgereerdschap na, zoals een kaligrafische pen of een ganzenveer, vaak cursief van constructie, de letters zijn meetsal met elkaar verbonden
+Voxclassificatiesysteem (Manuaren) =  foto toevoegen, getekend, niet specifiek geschreven karakter, bv: met de hand beletterde ramen, prijskaarten, reclameborden, ..., lijken meestal niet echt op handschrift, ze zijn meer opgebouwd of getekend. Zijn niet bedoeld voor tekst maar grote koppen. Een grote verscheidenheid aan inspiratiebronnen, van penseel tot viltstift
+Voxclassificatiesysteem (Frakturen) =  foto toevoegen, Gebasseerd op de middeleeuwse handschriften die met de brede pen werden geschreven, puntige, hoekige vormen, smalle letters, vrij donker woordbeeld, de invloed van de brede pen is duidelijk zichtbaar in de opbouw van de letters
+Voxclassificatiesysteem (Gaelic) =  foto toevoegen, Ierse lettertypen
+Voxclassificatiesysteem (Niet-Latijns) =  foto toevoegen, Grieks, Cyrilisch, Hebreeuws, Arabisch, Chinees, ...
+Tijdlijn Voxclassificatiesysteem = foto invoegen
+Classificatie afbeelding voxclassificatiesysteem = foto invoegen
+Post-moderne/Post-moderne = foto invoegen; Vage lettergroep, veel mogelijkheden na Vox, experimentele, moeilijk leesbare lettervormen; computer era -> o.b.v. pixels op een scherm, hoe expressiever -> hoe beter, vertrouw op nieuwe technologie opgezet met laserstralen (lichtprojecties), breken met tradities, nieuwe fonts voor een nieuwe periode met meet originele insteken
+Symbolen = afbeelding invoegen; drukken van speelkaarten, lettergroep met emoticons, symbolen, iconen, tekeningen, met IR beginnen mensen meer te reizen, waardoor nood aan informerende iconen onstaat
+Analyse van lettertypes 4 stappen: 1) bekijk de schreven, 2) bekijk de proporties, 3) zit de schrijfrichting overal hetzelfde (diagonaal of verticaal), 4) bekijk de lettervormen (egaf) -> de letters dat echt het verschil tonen
+Analyse van lettertypes (bekijk de schreven) = afbeelding toevoegen
+Analyse van lettertypes (bekijk de proporties (breedte vs hoogte)) = afbeelding toevoegen
+Analyse van lettertypes (zit de schrijfrichting overal hetzelfde (diagonaal of verticaal)) = afbeelding toevoegen
+Analyse van lettertypes (Bekijk de lettervormen (egaf) -> de lettesr dat echt het verschil tonen) = afbeelding toevoegen
