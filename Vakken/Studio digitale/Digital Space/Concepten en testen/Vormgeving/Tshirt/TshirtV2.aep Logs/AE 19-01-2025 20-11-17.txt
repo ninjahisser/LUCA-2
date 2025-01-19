@@ -1,0 +1,17 @@
+Adobe After Effects v25.1 Windows 64 render log for project “TshirtV2.aep”
+
+Rendering started on 19/01/2025 at 20:11:17
+
+  19/01/2025 20:11:17: Starting composition “tshirtfilm0000-0250”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Digital Space\Concepten en testen\Vormgeving\SHOWCASE\renders\tshirtfilm0000-0250.mp4    19/01/2025 20:11:19: Finished composition “tshirtfilm0000-0250”.
+
+
+  19/01/2025 20:11:19: Starting composition “tshirtfilm0000-0250”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Digital Space\Concepten en testen\Vormgeving\Tshirt\TshirtRender.mp4    19/01/2025 20:11:21: Finished composition “tshirtfilm0000-0250”.
+
+
+  Total Time Elapsed: 3 Seconds
+Log closed on 19/01/2025 at 20:11:21
+
