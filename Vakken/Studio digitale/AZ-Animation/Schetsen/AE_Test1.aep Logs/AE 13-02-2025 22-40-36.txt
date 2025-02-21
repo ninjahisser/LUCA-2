@@ -1,22 +1,0 @@
-Adobe After Effects v25.1 Windows 64 render log for project “AE_Test1.aep”
-
-Rendering started on 13/02/2025 at 22:40:36
-
-  13/02/2025 22:40:37: Starting composition “Test4”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test4.mp4    13/02/2025 22:45:09: Finished composition “Test4”.
-
-
-  13/02/2025 22:45:09: Starting composition “Test8”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test8.mp4    13/02/2025 22:45:11: Finished composition “Test8”.
-
-
-  13/02/2025 22:45:11: Starting composition “Test7”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test7.mp4    13/02/2025 22:45:22: Finished composition “Test7”.
-
-
-  Total Time Elapsed: 4 Min, 45 Sec
-Log closed on 13/02/2025 at 22:45:22
-

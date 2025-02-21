@@ -1,37 +1,0 @@
-Adobe After Effects v25.1 Windows 64 render log for project “AE_Test1.aep”
-
-Rendering started on 21/02/2025 at 9:17:15
-
-  21/02/2025 9:17:15: Starting composition “V6”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V6.mp4    21/02/2025 9:19:39: Finished composition “V6”.
-
-
-  21/02/2025 9:19:39: Starting composition “V5”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V5.mp4    21/02/2025 9:19:53: Finished composition “V5”.
-
-
-  21/02/2025 9:19:53: Starting composition “V4”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V4.mp4    21/02/2025 9:22:45: Finished composition “V4”.
-
-
-  21/02/2025 9:22:45: Starting composition “V3”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V3.mp4    21/02/2025 9:24:19: Finished composition “V3”.
-
-
-  21/02/2025 9:24:19: Starting composition “V2”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V2.mp4    21/02/2025 9:25:57: Finished composition “V2”.
-
-
-  21/02/2025 9:25:58: Starting composition “V1”.
-
-  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Letter K testen\V1.mp4    21/02/2025 9:27:27: Finished composition “V1”.
-
-
-  Total Time Elapsed: 10 Min, 12 Sec
-Log closed on 21/02/2025 at 9:27:27
-

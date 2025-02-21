@@ -1,39 +1,0 @@
-Adobe After Effects v25.1 Windows 64 render log for project “AE_Test1.aep”
-
-Rendering started on 13/02/2025 at 19:00:01
-
-  13/02/2025 19:00:01: Starting composition “Test1”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test1.mp4    13/02/2025 19:00:14: Finished composition “Test1”.
-
-
-  13/02/2025 19:00:14: Starting composition “Test2”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test2.mp4    13/02/2025 19:00:37: Finished composition “Test2”.
-
-
-  13/02/2025 19:00:37: Starting composition “Test3”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test3.mp4    13/02/2025 19:01:16: Finished composition “Test3”.
-
-
-  13/02/2025 19:01:16: Starting composition “Test4”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test4.mp4    After Effects has unexpectedly run out of memory and cannot complete this export.
-
-You may need to turn off Multi-Frame Rendering, simplify your composition, decrease your rendering resolution or increase the RAM available for After Effects in Preferences -> Memory & Performance.  13/02/2025 19:01:25: Finished composition “Test4”.
-
-
-  13/02/2025 19:01:25: Starting composition “Test5”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test5.mp4    13/02/2025 19:04:09: Finished composition “Test5”.
-
-
-  13/02/2025 19:04:09: Starting composition “Test6”.
-
-  Output To: F:\LUCA-2\Vakken\Studio digitale\AZ-Animation\Schetsen\Renders\Test6.mp4    13/02/2025 19:04:25: Finished composition “Test6”.
-
-
-  Total Time Elapsed: 4 Min, 23 Sec
-Log closed on 13/02/2025 at 19:04:25
-
