@@ -1,0 +1,17 @@
+Adobe After Effects v24.6.2 Windows 64 render log for project “teaser_animated.aep”
+
+Rendering started on 19/12/2024 at 20:46:06
+
+  19/12/2024 20:46:06: Starting composition “Resultaat”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Digital Space\Concepten en testen\Vormgeving\Resultaat.mp4    19/12/2024 20:46:08: Finished composition “Resultaat”.
+
+
+  19/12/2024 20:46:08: Starting composition “Resultaat”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Digital Space\Concepten en testen\Vormgeving\teaser_1_animated.mp4    19/12/2024 20:46:10: Finished composition “Resultaat”.
+
+
+  Total Time Elapsed: 4 Seconds
+Log closed on 19/12/2024 at 20:46:11
+
