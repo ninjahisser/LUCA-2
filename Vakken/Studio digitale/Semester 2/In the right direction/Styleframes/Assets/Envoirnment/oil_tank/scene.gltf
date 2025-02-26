@@ -1,0 +1,662 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7421,
+      "max": [
+        7.02022647857666,
+        5.205334663391113,
+        32.57276153564453
+      ],
+      "min": [
+        -5.365110874176025,
+        -4.8388671875,
+        -0.1081043928861618
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 89052,
+      "componentType": 5126,
+      "count": 7421,
+      "max": [
+        0.9999699592590332,
+        0.9999698996543884,
+        1.0
+      ],
+      "min": [
+        -0.9999698400497437,
+        -0.9999698996543884,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7421,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.2372084690071006e-08,
+        -0.0019531315192580223
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 24324,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 178104,
+      "componentType": 5126,
+      "count": 392,
+      "max": [
+        4.7805070877075195,
+        5.147828102111816,
+        31.197729110717773
+      ],
+      "min": [
+        -5.170572757720947,
+        -4.803251266479492,
+        13.933198928833008
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 182808,
+      "componentType": 5126,
+      "count": 392,
+      "max": [
+        0.9949193596839905,
+        0.9949193596839905,
+        1.0
+      ],
+      "min": [
+        -0.9949193596839905,
+        -0.9949194192886353,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 392,
+      "max": [
+        0.6364631056785583,
+        0.9561641216278076,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.636653482913971,
+        -0.9561623334884644,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 59368,
+      "componentType": 5126,
+      "count": 392,
+      "max": [
+        0.9836587905883789,
+        0.670432448387146
+      ],
+      "min": [
+        -5.493207666518174e-09,
+        -1.999647381012437e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 62504,
+      "componentType": 5126,
+      "count": 392,
+      "max": [
+        0.9836587905883789,
+        0.670432448387146
+      ],
+      "min": [
+        -5.493207666518174e-09,
+        -1.999647381012437e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 97296,
+      "componentType": 5125,
+      "count": 1152,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 187512,
+      "componentType": 5126,
+      "count": 166,
+      "max": [
+        4.659171104431152,
+        5.026493072509766,
+        31.197729110717773
+      ],
+      "min": [
+        -5.0492377281188965,
+        -4.681915283203125,
+        8.888117790222168
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 189504,
+      "componentType": 5126,
+      "count": 166,
+      "max": [
+        0.9949193000793457,
+        0.9949193000793457,
+        1.0
+      ],
+      "min": [
+        -0.9949193000793457,
+        -0.9949193596839905,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 6272,
+      "componentType": 5126,
+      "count": 166,
+      "max": [
+        0.9949193596839905,
+        0.9949193596839905,
+        0.7414774298667908,
+        1.0
+      ],
+      "min": [
+        -0.9949193596839905,
+        -0.9949193000793457,
+        -0.7414774298667908,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 65640,
+      "componentType": 5126,
+      "count": 166,
+      "max": [
+        0.8374740481376648,
+        0.9918237924575806
+      ],
+      "min": [
+        0.0034225801937282085,
+        0.0025319948326796293
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 66968,
+      "componentType": 5126,
+      "count": 166,
+      "max": [
+        0.8374740481376648,
+        0.9918237924575806
+      ],
+      "min": [
+        0.0034225801937282085,
+        0.0025319948326796293
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 101904,
+      "componentType": 5125,
+      "count": 468,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 191496,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        -1.3409814834594727,
+        2.947937488555908,
+        31.866270065307617
+      ],
+      "min": [
+        -4.160323143005371,
+        0.12859556078910828,
+        31.196264266967773
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 195432,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        0.9812289476394653,
+        0.9812291860580444,
+        1.0
+      ],
+      "min": [
+        -0.9812296628952026,
+        -0.9812291860580444,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8928,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        0.9951421618461609,
+        0.9896636009216309,
+        0.9974695444107056,
+        1.0
+      ],
+      "min": [
+        -0.9897978901863098,
+        -0.9896637201309204,
+        -0.08914390206336975,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 68296,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        1.0,
+        0.9856217503547668
+      ],
+      "min": [
+        0.0,
+        -8.114538374570657e-09
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 70920,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        1.0,
+        0.9856217503547668
+      ],
+      "min": [
+        0.0,
+        -8.114538374570657e-09
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 103776,
+      "componentType": 5125,
+      "count": 852,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cas_Models (https://sketchfab.com/Cas_Models)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/oil-tank-8da4322096a14d2b8d07f8ee8fd765f5",
+      "title": "Oil Tank"
+    },
+    "generator": "Sketchfab-16.59.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 107184,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73544,
+      "byteOffset": 107184,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 199368,
+      "byteOffset": 180728,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14176,
+      "byteOffset": 380096,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 394272,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/OilTankRing_baseColor.png"
+    },
+    {
+      "uri": "textures/OilTankRing_normal.png"
+    },
+    {
+      "uri": "textures/ThinOilRust_baseColor.png"
+    },
+    {
+      "uri": "textures/ThinOilRust_normal.png"
+    },
+    {
+      "uri": "textures/HatchRust_baseColor.png"
+    },
+    {
+      "uri": "textures/HatchRust_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.010",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0231537,
+          0.0109603,
+          0.006512,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9986116950479089
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "OilTankRing",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "ThinOilRust",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "HatchRust",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.004_Material.010_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.004_OilTankRing_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.004_ThinOilRust_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
+          },
+          "indices": 15,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube.004_HatchRust_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TANGENT": 18,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20
+          },
+          "indices": 21,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "eb66310a36bc465d86aa4a6e5227e93d.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cube.004"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.004_Material.010_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube.004_OilTankRing_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Cube.004_ThinOilRust_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Cube.004_HatchRust_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

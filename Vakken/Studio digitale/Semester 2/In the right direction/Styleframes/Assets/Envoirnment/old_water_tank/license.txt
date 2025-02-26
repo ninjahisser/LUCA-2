@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Water Tank
+* source:	https://sketchfab.com/3d-models/old-water-tank-8da6f7e5ebf14bd18f586396f32270c0
+* author:	YG3D (https://sketchfab.com/YGMax)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Water Tank" (https://sketchfab.com/3d-models/old-water-tank-8da6f7e5ebf14bd18f586396f32270c0) by YG3D (https://sketchfab.com/YGMax) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

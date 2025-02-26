@@ -1,0 +1,11 @@
+Model Information:
+* title:	Oil Tank
+* source:	https://sketchfab.com/3d-models/oil-tank-8da4322096a14d2b8d07f8ee8fd765f5
+* author:	Cas_Models (https://sketchfab.com/Cas_Models)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Oil Tank" (https://sketchfab.com/3d-models/oil-tank-8da4322096a14d2b8d07f8ee8fd765f5) by Cas_Models (https://sketchfab.com/Cas_Models) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
