@@ -1,0 +1,17 @@
+Adobe After Effects v25.1 Windows 64 render log for project “Result.aep”
+
+Rendering started on 9/03/2025 at 21:34:27
+
+  9/03/2025 21:34:27: Starting composition “Result”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Semester 2\In the right direction\Styleframes\Renders\Result.mp4    9/03/2025 21:35:59: Finished composition “Result”.
+
+
+  9/03/2025 21:35:59: Starting composition “Result”.
+
+  Output To: F:\LUCA-2\Vakken\Studio digitale\Semester 2\In the right direction\Styleframes\Renders\AE_Render.mp4    9/03/2025 21:36:06: Finished composition “Result”.
+
+
+  Total Time Elapsed: 1 Min, 37 Sec
+Log closed on 9/03/2025 at 21:36:06
+
