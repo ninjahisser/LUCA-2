@@ -1,28 +1,23 @@
 Indienen illu & photo I:
 Les 1: PDF + screenshots + verslag - opdrachten
 
-Les 2: Opdracht maak 2 kerstkaartjes, één kitch kaartje en niet kitch kaartje
+opdracht: grafisch stilleven maken, zoek een afbeelding van een stilleven (bv. schilderij of foto), plaats afbeelding in illustrator en gebruik de pen tool om de verschillende vormen over te trekken. Geef vormen kleur en speel met de storkes.
 
-Les 3: Zet een gekozen beeld om in een duotoon en opgesplitst + gebruik de blend modes om een 33cl blikje van je favoriete te voorzien van een ijzige structuur.
+Les 3: ding afwerken
 
-Les 4: Kies een film, zoek beelden online. Ontwerp een filmposter waarin je de mogelijkheden van verschillende soorten maskers uitprobeert. Maak minstens 2 variaties.
-    quickmask: brustool & Gradient tool
-    Layermask: zwart = niet zichtbaar, wit = zichtbaar, grijs gedeeltelijk zichtbaar
-    Clipping Mask beperkt zichtbaarheid van laag tot de vorm of inhoud van de laag eronder. (Option/alt+comm/ctr+G)
-    Vector Mask: Path om basis van vectoren. Met Pentool of vormentooll.
-    Snel masker + menu Layer>vectormask>current Path
-    Vormmask
-Je poster bestaat uit beelden & tekst (tittel)
-Formaat A4 210x297mm
-Voeg de twee variaties toe aan het verslag.
+voetbalsjaal opdracht
+- ontwerpen toeveogen aan verslag + screenshot met de vectoren
+- 145x17cm
 
-Les 5: video opname, frame animatie, opdracht: Maak een frame-animatie van een portret. waarin je portret veranderd/laat bewegen.
-Frames zijn laag gebonden: maak ook gebruik van layerstyles en effecten.
-Minimum 15 frames. nummer 2: In tegenstelling tot frame animatie waarin we onze animatie frame per frame opbouwen kunnen we met video animatie een object van punt a naar punt b transformeren. Opdracht: creëer een korte animatie met grafische vormen van 10 tot 15 seconden door gebruik te maken van een videotimeline.
+1. Teken deze Picasso na met de Pentool. Vormen toevoegen/
+opsplitsen is toegelaten
 
-Pas de drie mogelijkheden toe.
-1.	transformation: Verplaats, schaal, vervorm en/of draai objecten.
-2.	opacity: Gebruik verschillende transparantieniveaus.
-3.	Style : Voeg subtiele effecten toe
+2. Vul de tekening in met zelfgekozen kleuren met de
+Live Paint-optie.
 
-Dien de 2 animaties mee in met het verslag.
+3. Denk na over een consistent kleurenpalet om harmonie in je
+ontwerp te brengen
+
+________________________________________________________________________________
+
+LES 5 AFWERKEN EN DAN VERSLAG MAKEN
