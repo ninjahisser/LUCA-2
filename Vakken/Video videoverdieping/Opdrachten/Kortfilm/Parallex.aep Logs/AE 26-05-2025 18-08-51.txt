@@ -1,0 +1,17 @@
+Adobe After Effects v25.2.2 Windows 64 render log for project “Parallex.aep”
+
+Rendering started on 26/05/2025 at 18:08:51
+
+  26/05/2025 18:08:51: Starting composition “Result”.
+
+  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Video videoverdieping\Opdrachten\Kortfilm\Result_1.mp4    27/05/2025 18:43:23: Finished composition “Result”.
+
+
+  27/05/2025 18:43:24: Starting composition “Result”.
+
+  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Video videoverdieping\Opdrachten\Kortfilm\Kortfilm_WIP.mp4      Render stopped by user.    27/05/2025 19:08:31: Finished composition “Result”.
+
+
+  Total Time Elapsed: 24 Hr, 59 Min
+Log closed on 27/05/2025 at 19:08:31
+

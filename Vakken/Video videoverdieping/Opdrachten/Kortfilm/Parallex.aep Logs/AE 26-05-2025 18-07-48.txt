@@ -1,0 +1,12 @@
+Adobe After Effects v25.2.2 Windows 64 render log for project “Parallex.aep”
+
+Rendering started on 26/05/2025 at 18:07:48
+
+  26/05/2025 18:07:48: Starting composition “WS_StappenHeuvelNormaal”.
+
+  Output To: C:\Users\sethv\Documents\GitHub\LUCA-2\Vakken\Video videoverdieping\Opdrachten\Kortfilm\WS_StappenHeuvelNormaal.mp4      Render stopped by user.    26/05/2025 18:08:03: Finished composition “WS_StappenHeuvelNormaal”.
+
+
+  Total Time Elapsed: 15 Seconds
+Log closed on 26/05/2025 at 18:08:03
+
